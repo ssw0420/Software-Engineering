@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +79,93 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\baguni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\callmanager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\customermain-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\customermain+.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\drinkcategory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\orderbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\orderdetailbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\soupcategory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\drinkimg\cider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\drinkimg\coke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\drinkimg\pocari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\ordercheckimg\ordercheckno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\ordercheckimg\ordercheckyes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\ordercompleteimg\backtomain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\orderdetailimg\orderdetailexit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\orderdetailimg\staradd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\orderdetailimg\staraddcomplete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\orderproductimg\baguniadd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\orderproductimg\orderproduct-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\orderproductimg\orderproduct+.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\orderproductimg\orderproductcancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\soupimg\chadoljjigae.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\soupimg\doncochu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\soupimg\haemultang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\soupimg\kimchichigae.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\soupimg\maratang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\soupimg\umuktang.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
