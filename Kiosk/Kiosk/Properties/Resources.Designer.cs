@@ -93,6 +93,16 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap BigStar {
+            get {
+                object obj = ResourceManager.GetObject("BigStar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap callmanager {
             get {
                 object obj = ResourceManager.GetObject("callmanager", resourceCulture);
@@ -163,6 +173,16 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap detailPanel {
+            get {
+                object obj = ResourceManager.GetObject("detailPanel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap doncochu {
             get {
                 object obj = ResourceManager.GetObject("doncochu", resourceCulture);
@@ -196,6 +216,16 @@ namespace Kiosk.Properties {
         internal static System.Drawing.Bitmap kimchichigae {
             get {
                 object obj = ResourceManager.GetObject("kimchichigae", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap kimchiDetail {
+            get {
+                object obj = ResourceManager.GetObject("kimchiDetail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

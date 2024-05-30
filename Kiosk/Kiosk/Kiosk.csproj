@@ -167,5 +167,14 @@
   <ItemGroup>
     <None Include="kioskimg\soupimg\umuktang.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\detailPanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\detailimg\kimchiDetail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\detailimg\BigStar.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
