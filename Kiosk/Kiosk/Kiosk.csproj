@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMainForm.Designer.cs">
+      <DependentUpon>CustomerMainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CustomerMainForm.resx">
+      <DependentUpon>CustomerMainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -82,9 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="kioskimg\customermainimg\baguni.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="kioskimg\customermainimg\callmanager.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="kioskimg\customermainimg\customermain-.png" />
@@ -166,6 +172,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="kioskimg\soupimg\umuktang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RightBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeftBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="kioskimg\customermainimg\cartPanel.png" />
+    <Content Include="kioskimg\customermainimg\event.png" />
+    <Content Include="kioskimg\customermainimg\friedFoods.png" />
+    <Content Include="kioskimg\customermainimg\fruits.png" />
+    <Content Include="kioskimg\customermainimg\LeftBar.png" />
+    <Content Include="kioskimg\customermainimg\liquor.png" />
+    <Content Include="kioskimg\customermainimg\managerCall.png" />
+    <Content Include="kioskimg\customermainimg\newMenu.png" />
+    <Content Include="kioskimg\customermainimg\productPanel.png" />
+    <Content Include="kioskimg\customermainimg\RightBar.png" />
+    <Content Include="kioskimg\customermainimg\rightBarLine.png" />
+    <None Include="Resources\productPanel.png" />
+    <None Include="Resources\managerCall.png" />
+    <None Include="Resources\callManager.png" />
+    <None Include="Resources\event.png" />
+    <None Include="Resources\rightBarLine.png" />
+    <None Include="Resources\cartPanel.png" />
+    <None Include="Resources\fruits.png" />
+    <None Include="Resources\friedFoods.png" />
+    <None Include="Resources\drinks.png" />
+    <None Include="Resources\liquor.png" />
+    <None Include="Resources\newMenu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
