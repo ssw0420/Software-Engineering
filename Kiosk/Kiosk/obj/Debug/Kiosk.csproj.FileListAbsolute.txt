@@ -1,0 +1,10 @@
+C:\Kiosk\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.exe.config
+C:\Kiosk\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.exe
+C:\Kiosk\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.pdb
+C:\Kiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.AssemblyReference.cache
+C:\Kiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMainForm.resources
+C:\Kiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Properties.Resources.resources
+C:\Kiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.GenerateResource.cache
+C:\Kiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CoreCompileInputs.cache
+C:\Kiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.exe
+C:\Kiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.pdb

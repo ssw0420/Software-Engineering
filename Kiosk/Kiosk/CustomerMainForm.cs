@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace Kiosk
 {
-    public partial class Form1 : Form
+    public partial class CustomerMainForm : Form
     {
-        public Form1()
+        public CustomerMainForm()
         {
             InitializeComponent();
+            this.BackColor = ColorTranslator.FromHtml("#F5F5F5");
         }
     }
 }
