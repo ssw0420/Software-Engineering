@@ -9,3 +9,14 @@ C:\realKiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CoreCompile
 C:\realKiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.exe
 C:\realKiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.pdb
 C:\realKiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Form2.resources
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.exe.config
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.exe
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.pdb
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.AssemblyReference.cache
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Form1.resources
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Form2.resources
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Properties.Resources.resources
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.GenerateResource.cache
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CoreCompileInputs.cache
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.exe
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.pdb
