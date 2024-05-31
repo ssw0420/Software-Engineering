@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Kiosk
 {
-    public partial class Form1 : Form
+    public partial class OrderDetailPopup : Form
     {
-        public Form1()
+        public OrderDetailPopup()
         {
             InitializeComponent();
             this.BackColor = Color.FromArgb(235, 224, 220);
