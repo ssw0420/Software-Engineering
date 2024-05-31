@@ -20,8 +20,7 @@ namespace Kiosk
 
             label2.BackColor = Color.Transparent;
             label2.Parent = panel1;
-            label7.BackColor = Color.Transparent;
-            label7.Parent = panel2;
+        
 
 
         }
