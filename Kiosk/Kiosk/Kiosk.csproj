@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProductDetailPopup.cs">
+    <Compile Include="OrderDetailPopup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductDetailPopup.Designer.cs">
-      <DependentUpon>ProductDetailPopup.cs</DependentUpon>
+    <Compile Include="OrderDetailPopup.Designer.cs">
+      <DependentUpon>OrderDetailPopup.cs</DependentUpon>
     </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -60,8 +60,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ProductDetailPopup.resx">
-      <DependentUpon>ProductDetailPopup.cs</DependentUpon>
+    <EmbeddedResource Include="OrderDetailPopup.resx">
+      <DependentUpon>OrderDetailPopup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -175,15 +175,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="kioskimg\soupimg\umuktang.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="kioskimg\customermainimg\detailPanel.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="kioskimg\detailimg\kimchiDetail.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="kioskimg\detailimg\BigStar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
