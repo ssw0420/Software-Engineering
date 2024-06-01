@@ -220,7 +220,6 @@
     <None Include="kioskimg\FormImg\real_Kiosk.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="files\aa.csv" />
     <Content Include="Resources\aa.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
