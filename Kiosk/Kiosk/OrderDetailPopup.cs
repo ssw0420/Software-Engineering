@@ -18,7 +18,11 @@ namespace Kiosk
 {
     public partial class OrderDetailPopup : Form
     {
-        
+        public class Orders
+        {
+            [Name("사람이름")]
+            public string Name { get; set; }
+        }
         public OrderDetailPopup()
         {
             InitializeComponent();
@@ -40,7 +44,15 @@ namespace Kiosk
 
         private void OrderDetailPopup_Load(object sender, EventArgs e)
         {
+            using (var streamReader = new StreamReader("resourse\\aa.csv"))
+            {
+                using (var csvReader = new CsvReader(streamReader, CultureInfo.InvariantCulture))
+                {
+                    List<Orders> orders = csvReader.GetRecords<Orders>().ToList();
+                    dataGridView1.DataSource = orders;
+                }
 
+            }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
