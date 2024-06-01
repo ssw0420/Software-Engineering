@@ -982,7 +982,6 @@
             this.Controls.Add(this.rightBarPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CustomerMainForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CustomerMainForm";
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
