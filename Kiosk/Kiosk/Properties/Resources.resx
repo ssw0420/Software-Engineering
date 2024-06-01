@@ -118,104 +118,104 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="backtomain" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\ordercompleteimg\backtomain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="baguni" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\customermainimg\baguni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="baguniadd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\orderproductimg\baguniadd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cartPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cartPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="chadoljjigae" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\soupimg\chadoljjigae.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cider" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\drinkimg\cider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="coke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\drinkimg\coke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="customermain_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\customermainimg\customermain-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="customermain_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\customermainimg\customermain+.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\customermainimg\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="doncochu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\soupimg\doncochu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="drinkcategory" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\customermainimg\drinkcategory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LeftRectangleBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\customermainimg\LeftRectangleBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="event" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\event.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="friedFoods" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\friedFoods.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="productPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\productPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fruits" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fruits.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="haemultang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\soupimg\haemultang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kimchichigae" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\soupimg\kimchichigae.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LeftBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LeftBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="liquor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\liquor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="managerCall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\managerCall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maratang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\soupimg\maratang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="newMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\newMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="orderbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\customermainimg\orderbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="baguniadd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\orderproductimg\baguniadd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ordercheckno" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\ordercheckimg\ordercheckno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ordercheckyes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\ordercheckimg\ordercheckyes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="backtomain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\ordercompleteimg\backtomain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="orderdetailbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\customermainimg\orderdetailbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RightBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RightBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="orderdetailexit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\orderdetailimg\orderdetailexit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="friedFoods" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\friedFoods.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="orderproductcancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\orderproductimg\orderproductcancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\drinkimg\cider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LeftBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baguni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\customermainimg\baguni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fruits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fruits.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orderbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\customermainimg\orderbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kimchichigae" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\soupimg\kimchichigae.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="liquor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\liquor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\drinkimg\coke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="orderproduct_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\orderproductimg\orderproduct-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="orderproduct_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\orderproductimg\orderproduct+.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="drinkcategory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\customermainimg\drinkcategory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chadoljjigae" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\soupimg\chadoljjigae.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="umuktang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\soupimg\umuktang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haemultang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\soupimg\haemultang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orderdetailbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\customermainimg\orderdetailbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\customermainimg\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ordercheckyes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\ordercheckimg\ordercheckyes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maratang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\soupimg\maratang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orderdetailexit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\orderdetailimg\orderdetailexit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doncochu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\soupimg\doncochu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pocari" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\drinkimg\pocari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="productPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\productPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="staraddcomplete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\orderdetailimg\staraddcomplete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RightBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RightBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="orderproduct_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\orderproductimg\orderproduct+.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\customermainimg\star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="managerCall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\managerCall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rightBarLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rightBarLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,16 +223,22 @@
   <data name="soupcategory" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\customermainimg\soupcategory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="star" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\customermainimg\star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="orderproductcancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\orderproductimg\orderproductcancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customermain_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\customermainimg\customermain+.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customermain_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\customermainimg\customermain-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="staradd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\orderdetailimg\staradd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="staraddcomplete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\orderdetailimg\staraddcomplete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cartPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="umuktang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\kioskimg\soupimg\umuktang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RightRectangleBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\customermainimg\RightRectangleBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -16,5 +16,10 @@ namespace Kiosk
         {
             InitializeComponent();
         }
+
+        private void rightBarPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

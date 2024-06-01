@@ -185,6 +185,8 @@
     <Content Include="kioskimg\customermainimg\friedFoods.png" />
     <Content Include="kioskimg\customermainimg\fruits.png" />
     <Content Include="kioskimg\customermainimg\LeftBar.png" />
+    <None Include="kioskimg\customermainimg\RightRectangleBar.png" />
+    <None Include="kioskimg\customermainimg\LeftRectangleBar.png" />
     <Content Include="kioskimg\customermainimg\liquor.png" />
     <Content Include="kioskimg\customermainimg\managerCall.png" />
     <Content Include="kioskimg\customermainimg\newMenu.png" />
