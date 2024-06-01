@@ -27,3 +27,4 @@ C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CoreCompileIn
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CopyComplete
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.exe
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.pdb
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMainForm.resources

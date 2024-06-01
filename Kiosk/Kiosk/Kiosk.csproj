@@ -71,6 +71,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMainForm.Designer.cs">
+      <DependentUpon>CustomerMainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
       <DependentUpon>OrderDetailForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <EmbeddedResource Include="CustomerMainForm.resx">
+      <DependentUpon>CustomerMainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
@@ -216,6 +225,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="kioskimg\FormImg\real_Kiosk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\customermainimg\CustomerFormImg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

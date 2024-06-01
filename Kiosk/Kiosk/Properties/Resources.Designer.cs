@@ -143,6 +143,16 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap CustomerFormImg {
+            get {
+                object obj = ResourceManager.GetObject("CustomerFormImg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap customermain_ {
             get {
                 object obj = ResourceManager.GetObject("customermain_", resourceCulture);
@@ -376,6 +386,16 @@ namespace Kiosk.Properties {
         internal static System.Drawing.Bitmap real_Kiosk2 {
             get {
                 object obj = ResourceManager.GetObject("real_Kiosk2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap real_Kiosk3 {
+            get {
+                object obj = ResourceManager.GetObject("real_Kiosk3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
