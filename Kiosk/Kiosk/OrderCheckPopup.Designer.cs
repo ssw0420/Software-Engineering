@@ -1,6 +1,6 @@
 ﻿namespace Kiosk
 {
-    partial class Form2
+    partial class OrderCheckPopup
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,17 @@
         {
             this.SuspendLayout();
             // 
-            // Form2
+            // OrderCheckPopup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1318, 977);
-            this.Location = new System.Drawing.Point(50, 56);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.BackgroundImage = global::Kiosk.Properties.Resources.OrderCheckForm1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1031, 822);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "OrderCheckPopup";
+            this.Text = "OrderCheckPopupForm";
             this.ResumeLayout(false);
 
         }

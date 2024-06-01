@@ -61,15 +61,6 @@ namespace Kiosk.Properties {
         }
         
         /// <summary>
-        ///   신승우,배시현과(와) 유사한 지역화된 문자열을 찾습니다.
-        /// </summary>
-        internal static string aa {
-            get {
-                return ResourceManager.GetString("aa", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
         internal static System.Drawing.Bitmap backtomain {
@@ -145,6 +136,16 @@ namespace Kiosk.Properties {
         internal static System.Drawing.Bitmap coke {
             get {
                 object obj = ResourceManager.GetObject("coke", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap CustomerFormImg {
+            get {
+                object obj = ResourceManager.GetObject("CustomerFormImg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -282,6 +283,26 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap OrderCheckForm {
+            get {
+                object obj = ResourceManager.GetObject("OrderCheckForm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap OrderCheckForm1 {
+            get {
+                object obj = ResourceManager.GetObject("OrderCheckForm1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap ordercheckno {
             get {
                 object obj = ResourceManager.GetObject("ordercheckno", resourceCulture);
@@ -365,6 +386,56 @@ namespace Kiosk.Properties {
         internal static System.Drawing.Bitmap real_Kiosk {
             get {
                 object obj = ResourceManager.GetObject("real_Kiosk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap real_Kiosk1 {
+            get {
+                object obj = ResourceManager.GetObject("real_Kiosk1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap real_Kiosk2 {
+            get {
+                object obj = ResourceManager.GetObject("real_Kiosk2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap real_Kiosk3 {
+            get {
+                object obj = ResourceManager.GetObject("real_Kiosk3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap real_Kiosk4 {
+            get {
+                object obj = ResourceManager.GetObject("real_Kiosk4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap real_OrderCheckForm {
+            get {
+                object obj = ResourceManager.GetObject("real_OrderCheckForm", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
