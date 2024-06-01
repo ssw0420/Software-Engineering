@@ -1,23 +1,18 @@
-﻿using CsvHelper;
-using CsvHelper.Configuration.Attributes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Globalization;
-using static System.Net.WebRequestMethods;
 
 namespace Kiosk
 {
     public partial class OrderDetailPopup : Form
     {
+<<<<<<< HEAD
         public class Orders
         {
             
@@ -49,4 +44,11 @@ namespace Kiosk
 
         
     
+=======
+        public OrderDetailPopup()
+        {
+            InitializeComponent();
+        }
+    }
+>>>>>>> c4a78919c7dece0578fedd71da4c97fa95a4d2b0
 }

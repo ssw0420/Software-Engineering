@@ -71,25 +71,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMainForm.Designer.cs">
+      <DependentUpon>CustomerMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderCheckPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderCheckPopup.Designer.cs">
+      <DependentUpon>OrderCheckPopup.cs</DependentUpon>
+    </Compile>
     <Compile Include="OrderDetailPopup.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="OrderDetailPopup.Designer.cs">
       <DependentUpon>OrderDetailPopup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="OrderDetailPopup.resx">
-      <DependentUpon>OrderDetailPopup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="CustomerMainForm.resx">
+      <DependentUpon>CustomerMainForm.cs</DependentUpon>
     </EmbeddedResource>
     <Compile Include="ProductDetailPopup.cs">
       <SubType>Form</SubType>
@@ -97,8 +99,13 @@
     <Compile Include="ProductDetailPopup.Designer.cs">
       <DependentUpon>ProductDetailPopup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="OrderCheckPopup.resx">
+      <DependentUpon>OrderCheckPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDetailPopup.resx">
+      <DependentUpon>OrderDetailPopup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProductDetailPopup.resx">
       <DependentUpon>ProductDetailPopup.cs</DependentUpon>
     </EmbeddedResource>
@@ -220,8 +227,13 @@
     <None Include="kioskimg\FormImg\real_Kiosk.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="files\aa.csv" />
-    <Content Include="Resources\aa.csv" />
+    <None Include="kioskimg\customermainimg\CustomerFormImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\FormImg\OrderCheckForm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kioskimg\FormImg\real_OrderCheckForm.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

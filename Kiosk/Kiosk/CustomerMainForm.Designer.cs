@@ -1,6 +1,6 @@
 ﻿namespace Kiosk
 {
-    partial class Form2
+    partial class CustomerMainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,15 @@
         {
             this.SuspendLayout();
             // 
-            // Form2
+            // CustomerMainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1318, 977);
-            this.Location = new System.Drawing.Point(50, 56);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.BackgroundImage = global::Kiosk.Properties.Resources.CustomerFormImg;
+            this.ClientSize = new System.Drawing.Size(1336, 1024);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "CustomerMainForm";
+            this.Text = "CustomerMainForm";
             this.ResumeLayout(false);
 
         }

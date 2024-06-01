@@ -1,15 +1,6 @@
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.exe.config
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.exe
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.pdb
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.AssemblyReference.cache
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Properties.Resources.resources
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.GenerateResource.cache
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CoreCompileInputs.cache
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.exe
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.pdb
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderDetailPopup.resources
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Form2.resources
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.ProductDetailPopup.resources
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\CsvHelper.dll
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Microsoft.Bcl.HashCode.dll
@@ -26,7 +17,13 @@ C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\System.Memory.xml
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\System.Numerics.Vectors.xml
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.AssemblyReference.cache
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.ProductDetailPopup.resources
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Properties.Resources.resources
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.GenerateResource.cache
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CoreCompileInputs.cache
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CopyComplete
+<<<<<<< HEAD
 C:\realKiosk\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.exe.config
 C:\realKiosk\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.exe
 C:\realKiosk\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.pdb
@@ -56,3 +53,10 @@ C:\realKiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CoreCompile
 C:\realKiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.Up2Date
 C:\realKiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.exe
 C:\realKiosk\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.pdb
+=======
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.exe
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.pdb
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMainForm.resources
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderDetailPopup.resources
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCheckPopup.resources
+>>>>>>> c4a78919c7dece0578fedd71da4c97fa95a4d2b0
