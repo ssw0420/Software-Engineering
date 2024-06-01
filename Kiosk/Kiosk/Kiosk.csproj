@@ -71,6 +71,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMainForm.Designer.cs">
+      <DependentUpon>CustomerMainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="OrderDetailPopup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,18 +88,6 @@
     </Compile>
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -113,12 +107,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ProductDetailPopup.resx">
       <DependentUpon>ProductDetailPopup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -238,8 +226,23 @@
     <None Include="kioskimg\FormImg\real_Kiosk.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="files\aa.csv" />
+    <None Include="Resources\RightRectangleBar.png" />
+    <None Include="kioskimg\customermainimg\Kiosk_CustomerMain.png" />
     <Content Include="Resources\aa.csv" />
+    <Content Include="Resources\callManager.png" />
+    <Content Include="Resources\cartPanel.png" />
+    <Content Include="Resources\drinks.png" />
+    <Content Include="Resources\event.png" />
+    <Content Include="Resources\friedFoods.png" />
+    <Content Include="Resources\fruits.png" />
+    <Content Include="Resources\LeftBar.png" />
+    <None Include="Resources\LeftRectangleBar.png" />
+    <Content Include="Resources\liquor.png" />
+    <Content Include="Resources\managerCall.png" />
+    <Content Include="Resources\newMenu.png" />
+    <Content Include="Resources\productPanel.png" />
+    <Content Include="Resources\RightBar.png" />
+    <Content Include="Resources\rightBarLine.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

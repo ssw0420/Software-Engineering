@@ -6,12 +6,6 @@ C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.AssemblyRefer
 =======
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMainForm.resources
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Form1.resources
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of ba9ffbe (.)
-=======
->>>>>>> parent of ba9ffbe (.)
-=======
 >>>>>>> parent of ba9ffbe (.)
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Properties.Resources.resources
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.GenerateResource.cache
