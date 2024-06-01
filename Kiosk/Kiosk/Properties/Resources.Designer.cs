@@ -61,15 +61,6 @@ namespace Kiosk.Properties {
         }
         
         /// <summary>
-        ///   신승우,배시현과(와) 유사한 지역화된 문자열을 찾습니다.
-        /// </summary>
-        internal static string aa {
-            get {
-                return ResourceManager.GetString("aa", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
         internal static System.Drawing.Bitmap backtomain {
@@ -365,6 +356,26 @@ namespace Kiosk.Properties {
         internal static System.Drawing.Bitmap real_Kiosk {
             get {
                 object obj = ResourceManager.GetObject("real_Kiosk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap real_Kiosk1 {
+            get {
+                object obj = ResourceManager.GetObject("real_Kiosk1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap real_Kiosk2 {
+            get {
+                object obj = ResourceManager.GetObject("real_Kiosk2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

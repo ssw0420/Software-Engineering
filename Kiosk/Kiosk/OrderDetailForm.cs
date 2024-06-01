@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Kiosk
 {
-    public partial class Form1 : Form
+    public partial class OrderDetailForm : Form
     {
-        public Form1()
+        public OrderDetailForm()
         {
             InitializeComponent();
         }
