@@ -5,7 +5,8 @@ C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.AssemblyRefer
 <<<<<<< HEAD
 =======
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMainForm.resources
->>>>>>> Ver1_KWH
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Form1.resources
+>>>>>>> parent of ba9ffbe (.)
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Properties.Resources.resources
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.GenerateResource.cache
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CoreCompileInputs.cache
