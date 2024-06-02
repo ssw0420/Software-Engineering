@@ -34,11 +34,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Kiosk.Properties.Resources.real_Kiosk4;
-            this.ClientSize = new System.Drawing.Size(1336, 1024);
+            this.BackgroundImage = global::Kiosk.Properties.Resources.real_Kiosk5;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1336, 707);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OrderDetailPopup";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrderDetailPopup";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.OrderDetailPopup_Load);
             this.ResumeLayout(false);
 
         }
