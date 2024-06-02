@@ -16,5 +16,12 @@ namespace Kiosk
         {
             InitializeComponent();
         }
+
+        private void redirectMain_Click(object sender, EventArgs e)
+        {
+            CustomerMainForm customerMainForm = new CustomerMainForm();
+            customerMainForm.Show();
+            this.Hide();
+        }
     }
 }

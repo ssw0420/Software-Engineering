@@ -28,7 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.redirectMain = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.redirectMain)).BeginInit();
             this.SuspendLayout();
+            // 
+            // redirectMain
+            // 
+            this.redirectMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(233)))), ((int)(((byte)(226)))));
+            this.redirectMain.Image = global::Kiosk.Properties.Resources.orderdetailexit1;
+            this.redirectMain.Location = new System.Drawing.Point(34, 863);
+            this.redirectMain.Name = "redirectMain";
+            this.redirectMain.Size = new System.Drawing.Size(239, 61);
+            this.redirectMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.redirectMain.TabIndex = 0;
+            this.redirectMain.TabStop = false;
+            this.redirectMain.Click += new System.EventHandler(this.redirectMain_Click);
             // 
             // OrderDetailPopup
             // 
@@ -36,13 +50,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Kiosk.Properties.Resources.real_Kiosk4;
             this.ClientSize = new System.Drawing.Size(1336, 1024);
+            this.Controls.Add(this.redirectMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OrderDetailPopup";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrderDetailPopup";
+            ((System.ComponentModel.ISupportInitialize)(this.redirectMain)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox redirectMain;
     }
 }

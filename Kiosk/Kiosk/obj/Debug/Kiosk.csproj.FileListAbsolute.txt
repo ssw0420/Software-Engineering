@@ -1,6 +1,5 @@
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.exe.config
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.exe
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.pdb
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.exe.config
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\CsvHelper.dll
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Microsoft.Bcl.HashCode.dll
@@ -18,6 +17,9 @@ C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\System.Numerics.Vectors.xm
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.AssemblyReference.cache
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMainForm.resources
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCheckPopup.resources
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderDetailPopup.resources
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.ProductDetailPopup.resources
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.Properties.Resources.resources
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.GenerateResource.cache
@@ -25,6 +27,4 @@ C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CoreCompileIn
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CopyComplete
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.exe
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.pdb
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMainForm.resources
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderDetailPopup.resources
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCheckPopup.resources
+C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.pdb
