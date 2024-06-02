@@ -21,6 +21,7 @@ namespace Kiosk
             InitializeCustomComponents();
         }
 
+<<<<<<< HEAD
         private void InitializeCustomComponents()
         {
             // 폼 초기화
@@ -144,6 +145,14 @@ namespace Kiosk
             this.Controls.Add(totalQuanLabel);
         }
 
+=======
+        private void redirectMain_Click(object sender, EventArgs e)
+        {
+            CustomerMainForm customerMainForm = new CustomerMainForm();
+            customerMainForm.Show();
+            this.Hide();
+        }
+>>>>>>> 32642a51b988521ef238c66a6674d699fd455385
     }
 }
 
