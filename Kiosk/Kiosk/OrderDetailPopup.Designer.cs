@@ -28,21 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.redirectMain = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.redirectMain)).BeginInit();
             this.SuspendLayout();
-            // 
-            // redirectMain
-            // 
-            this.redirectMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(233)))), ((int)(((byte)(226)))));
-            this.redirectMain.Image = global::Kiosk.Properties.Resources.orderdetailexit1;
-            this.redirectMain.Location = new System.Drawing.Point(34, 863);
-            this.redirectMain.Name = "redirectMain";
-            this.redirectMain.Size = new System.Drawing.Size(239, 61);
-            this.redirectMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.redirectMain.TabIndex = 0;
-            this.redirectMain.TabStop = false;
-            this.redirectMain.Click += new System.EventHandler(this.redirectMain_Click);
             // 
             // OrderDetailPopup
             // 
@@ -56,25 +42,27 @@
 =======
             this.BackgroundImage = global::Kiosk.Properties.Resources.real_Kiosk4;
             this.ClientSize = new System.Drawing.Size(1336, 1024);
+<<<<<<< HEAD
             this.Controls.Add(this.redirectMain);
 >>>>>>> 32642a51b988521ef238c66a6674d699fd455385
+=======
+>>>>>>> parent of 32642a5 (Category Load)
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OrderDetailPopup";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrderDetailPopup";
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.OrderDetailPopup_Load);
 =======
             ((System.ComponentModel.ISupportInitialize)(this.redirectMain)).EndInit();
 >>>>>>> 32642a51b988521ef238c66a6674d699fd455385
+=======
+>>>>>>> parent of 32642a5 (Category Load)
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox redirectMain;
     }
 }
