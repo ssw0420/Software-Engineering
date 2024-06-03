@@ -18,7 +18,6 @@ namespace Kiosk
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 
         private void InitializeCustomComponents()
         {
@@ -143,8 +142,6 @@ namespace Kiosk
             this.Controls.Add(totalQuanLabel);
         }
 
-=======
->>>>>>> parent of b4d632e (주문내역)
 =======
 >>>>>>> parent of b4d632e (주문내역)
 =======
