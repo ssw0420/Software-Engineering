@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Kiosk.Properties.Resources.OrderCheckForm1;
+            // this.BackgroundImage = global::Kiosk.Properties.Resources.OrderCheckForm1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1031, 822);
             this.DoubleBuffered = true;
