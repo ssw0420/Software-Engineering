@@ -31,6 +31,9 @@ C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMainForm.res
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderDetailPopup.resources
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCheckPopup.resources
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b4d632e (주문내역)
+=======
 >>>>>>> parent of b4d632e (주문내역)
 =======
 >>>>>>> parent of b4d632e (주문내역)
