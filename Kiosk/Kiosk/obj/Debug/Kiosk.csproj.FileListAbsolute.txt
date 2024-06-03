@@ -25,16 +25,10 @@ C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CoreCompileIn
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.exe
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.pdb
 <<<<<<< HEAD
-<<<<<<< HEAD
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMainForm.resources
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCheckPopup.resources
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.Up2Date
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderDetailPopup.resources
 =======
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\bin\Debug\Kiosk.pdb
 >>>>>>> 32642a51b988521ef238c66a6674d699fd455385
-=======
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMainForm.resources
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderDetailPopup.resources
-C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCheckPopup.resources
 >>>>>>> parent of 32642a5 (Category Load)
