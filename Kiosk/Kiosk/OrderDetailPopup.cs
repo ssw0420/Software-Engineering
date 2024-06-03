@@ -25,7 +25,7 @@ namespace Kiosk
         {
             // 폼 초기화
             this.Text = "Order Detail";
-            this.AutoScroll = true; // 스크롤 가능하도록 설정
+            // this.AutoScroll = true; // 스크롤 가능하도록 설정
         }
 
         public class Order
