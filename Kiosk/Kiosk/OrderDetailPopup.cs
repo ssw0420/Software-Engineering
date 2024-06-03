@@ -20,7 +20,6 @@ namespace Kiosk
             InitializeComponent();
             InitializeCustomComponents();
         }
-<<<<<<< HEAD
 
 <<<<<<< HEAD
         private void InitializeCustomComponents()
@@ -154,8 +153,6 @@ namespace Kiosk
             this.Hide();
         }
 >>>>>>> 32642a51b988521ef238c66a6674d699fd455385
-=======
->>>>>>> parent of 32642a5 (Category Load)
     }
 }
 
