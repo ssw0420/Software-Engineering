@@ -1,25 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
-using System.Globalization;
-using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using CsvHelper;
-using CsvHelper.Configuration.Attributes;
-using CsvHelper.Configuration;
 
 namespace Kiosk
 {
     public partial class OrderDetailPopup : Form
     {
-
         public OrderDetailPopup()
         {
             InitializeComponent();
-            InitializeCustomComponents();
         }
+<<<<<<< HEAD
 
         private void InitializeCustomComponents()
         {
@@ -144,6 +141,7 @@ namespace Kiosk
             this.Controls.Add(totalQuanLabel);
         }
 
+=======
+>>>>>>> parent of b4d632e (주문내역)
     }
 }
-

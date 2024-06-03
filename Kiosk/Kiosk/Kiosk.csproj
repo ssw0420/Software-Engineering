@@ -129,7 +129,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="resource\Order.csv" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -236,6 +235,5 @@
   <ItemGroup>
     <None Include="kioskimg\FormImg\real_OrderCheckForm.png" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
