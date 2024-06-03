@@ -63,16 +63,6 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap _15_테이블 {
-            get {
-                object obj = ResourceManager.GetObject("15 테이블", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
         internal static System.Drawing.Bitmap backtomain {
             get {
                 object obj = ResourceManager.GetObject("backtomain", resourceCulture);
@@ -113,29 +103,9 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap Call {
-            get {
-                object obj = ResourceManager.GetObject("Call", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
         internal static System.Drawing.Bitmap callmanager {
             get {
                 object obj = ResourceManager.GetObject("callmanager", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
-        internal static System.Drawing.Bitmap callmanager1 {
-            get {
-                object obj = ResourceManager.GetObject("callmanager1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,16 +263,6 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap Manager {
-            get {
-                object obj = ResourceManager.GetObject("Manager", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
         internal static System.Drawing.Bitmap maratang {
             get {
                 object obj = ResourceManager.GetObject("maratang", resourceCulture);
@@ -373,39 +333,9 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap orderdetailbutton1 {
-            get {
-                object obj = ResourceManager.GetObject("orderdetailbutton1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
-        internal static System.Drawing.Bitmap orderdetailbutton2 {
-            get {
-                object obj = ResourceManager.GetObject("orderdetailbutton2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
         internal static System.Drawing.Bitmap orderdetailexit {
             get {
                 object obj = ResourceManager.GetObject("orderdetailexit", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
-        internal static System.Drawing.Bitmap orderdetailexit1 {
-            get {
-                object obj = ResourceManager.GetObject("orderdetailexit1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
