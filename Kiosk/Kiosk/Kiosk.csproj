@@ -111,19 +111,19 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -236,6 +236,10 @@
   <ItemGroup>
     <None Include="kioskimg\FormImg\real_OrderCheckForm.png" />
   </ItemGroup>
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <ItemGroup />
+=======
   <ItemGroup>
     <None Include="kioskimg\customermainimg\Manager.png" />
   </ItemGroup>
@@ -245,5 +249,8 @@
   <ItemGroup>
     <None Include="kioskimg\customermainimg\15 테이블.png" />
   </ItemGroup>
+>>>>>>> 32642a51b988521ef238c66a6674d699fd455385
+=======
+>>>>>>> parent of 32642a5 (Category Load)
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
