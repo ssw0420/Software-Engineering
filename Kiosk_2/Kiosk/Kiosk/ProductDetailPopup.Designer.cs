@@ -33,16 +33,19 @@
             this.productDetailMinus = new System.Windows.Forms.PictureBox();
             this.productDetailPlus = new System.Windows.Forms.PictureBox();
             this.productQuantityLabel = new System.Windows.Forms.Label();
+            this.productRatingLabel = new System.Windows.Forms.Label();
+            this.productPriceLabel = new System.Windows.Forms.Label();
+            this.productNameLabel = new System.Windows.Forms.Label();
+            this.productContentLabel = new System.Windows.Forms.Label();
+            this.productImagePbx = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.productDetailCancel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productDetailAdd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productDetailMinus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productDetailPlus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productImagePbx)).BeginInit();
             this.SuspendLayout();
             // 
             // productDetailCancel
@@ -97,56 +100,99 @@
             // 
             this.productQuantityLabel.AutoSize = true;
             this.productQuantityLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
-            this.productQuantityLabel.Font = new System.Drawing.Font("굴림", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.productQuantityLabel.Location = new System.Drawing.Point(441, 688);
+            this.productQuantityLabel.Font = new System.Drawing.Font("Gulim", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.productQuantityLabel.Location = new System.Drawing.Point(417, 685);
             this.productQuantityLabel.Name = "productQuantityLabel";
             this.productQuantityLabel.Size = new System.Drawing.Size(39, 37);
             this.productQuantityLabel.TabIndex = 4;
             this.productQuantityLabel.Text = "1";
             // 
+            // productRatingLabel
+            // 
+            this.productRatingLabel.AutoSize = true;
+            this.productRatingLabel.BackColor = System.Drawing.Color.Transparent;
+            this.productRatingLabel.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.productRatingLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(85)))), ((int)(((byte)(74)))));
+            this.productRatingLabel.Location = new System.Drawing.Point(159, 498);
+            this.productRatingLabel.Name = "productRatingLabel";
+            this.productRatingLabel.Size = new System.Drawing.Size(54, 21);
+            this.productRatingLabel.TabIndex = 5;
+            this.productRatingLabel.Text = "별점";
+            // 
+            // productPriceLabel
+            // 
+            this.productPriceLabel.AutoSize = true;
+            this.productPriceLabel.BackColor = System.Drawing.Color.Transparent;
+            this.productPriceLabel.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.productPriceLabel.Location = new System.Drawing.Point(313, 498);
+            this.productPriceLabel.Name = "productPriceLabel";
+            this.productPriceLabel.Size = new System.Drawing.Size(54, 21);
+            this.productPriceLabel.TabIndex = 6;
+            this.productPriceLabel.Text = "가격";
+            // 
+            // productNameLabel
+            // 
+            this.productNameLabel.AutoSize = true;
+            this.productNameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.productNameLabel.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.productNameLabel.Location = new System.Drawing.Point(504, 101);
+            this.productNameLabel.Name = "productNameLabel";
+            this.productNameLabel.Size = new System.Drawing.Size(158, 24);
+            this.productNameLabel.TabIndex = 7;
+            this.productNameLabel.Text = "productName";
+            // 
+            // productContentLabel
+            // 
+            this.productContentLabel.AutoSize = true;
+            this.productContentLabel.BackColor = System.Drawing.Color.Transparent;
+            this.productContentLabel.Font = new System.Drawing.Font("Gulim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.productContentLabel.Location = new System.Drawing.Point(504, 195);
+            this.productContentLabel.Name = "productContentLabel";
+            this.productContentLabel.Size = new System.Drawing.Size(121, 16);
+            this.productContentLabel.TabIndex = 8;
+            this.productContentLabel.Text = "productContent";
+            // 
+            // productImagePbx
+            // 
+            this.productImagePbx.Location = new System.Drawing.Point(97, 101);
+            this.productImagePbx.Name = "productImagePbx";
+            this.productImagePbx.Size = new System.Drawing.Size(342, 343);
+            this.productImagePbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.productImagePbx.TabIndex = 9;
+            this.productImagePbx.TabStop = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(113, 373);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(94, 498);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 12);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 21);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "별점 : ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(270, 373);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Location = new System.Drawing.Point(247, 498);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 12);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "label2";
+            this.label2.Size = new System.Drawing.Size(78, 21);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "가격 : ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(504, 101);
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.label3.Font = new System.Drawing.Font("Gulim", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Location = new System.Drawing.Point(468, 685);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 12);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "label3";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(504, 196);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 12);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "label4";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(97, 101);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(261, 207);
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
+            this.label3.Size = new System.Drawing.Size(55, 37);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "개";
             // 
             // ProductDetailPopup
             // 
@@ -155,11 +201,14 @@
             this.BackgroundImage = global::Kiosk.Properties.Resources.OrderPopupForm;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1031, 822);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.productPriceLabel);
+            this.Controls.Add(this.productRatingLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.productImagePbx);
+            this.Controls.Add(this.productContentLabel);
+            this.Controls.Add(this.productNameLabel);
             this.Controls.Add(this.productQuantityLabel);
             this.Controls.Add(this.productDetailPlus);
             this.Controls.Add(this.productDetailMinus);
@@ -174,7 +223,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.productDetailAdd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productDetailMinus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productDetailPlus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productImagePbx)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -187,10 +236,13 @@
         private System.Windows.Forms.PictureBox productDetailMinus;
         private System.Windows.Forms.PictureBox productDetailPlus;
         private System.Windows.Forms.Label productQuantityLabel;
+        private System.Windows.Forms.Label productRatingLabel;
+        private System.Windows.Forms.Label productPriceLabel;
+        private System.Windows.Forms.Label productNameLabel;
+        private System.Windows.Forms.Label productContentLabel;
+        private System.Windows.Forms.PictureBox productImagePbx;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

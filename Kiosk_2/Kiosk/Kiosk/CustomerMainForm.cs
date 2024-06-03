@@ -172,7 +172,8 @@ namespace Kiosk
 
         private void DisplayProductDetail(int productId)
         {
-            ProductDetailPopup productDetailPopup = new ProductDetailPopup();
+            var selectedProduct = products.FirstOrDefault(p => p.ProductId == productId);
+            ProductDetailPopup productDetailPopup = new ProductDetailPopup(selectedProduct);
             productDetailPopup.ShowDialog();
         }
 
