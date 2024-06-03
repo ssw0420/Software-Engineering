@@ -16,7 +16,7 @@ namespace Kiosk
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CustomerMainForm());
+            Application.Run(new OrderDetailPopup());
         }
     }
 }
