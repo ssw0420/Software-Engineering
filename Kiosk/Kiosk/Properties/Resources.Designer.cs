@@ -113,16 +113,6 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap callmanager1 {
-            get {
-                object obj = ResourceManager.GetObject("callmanager1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
         internal static System.Drawing.Bitmap chadoljjigae {
             get {
                 object obj = ResourceManager.GetObject("chadoljjigae", resourceCulture);
@@ -343,39 +333,9 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap orderdetailbutton1 {
-            get {
-                object obj = ResourceManager.GetObject("orderdetailbutton1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
-        internal static System.Drawing.Bitmap orderdetailbutton2 {
-            get {
-                object obj = ResourceManager.GetObject("orderdetailbutton2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
         internal static System.Drawing.Bitmap orderdetailexit {
             get {
                 object obj = ResourceManager.GetObject("orderdetailexit", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
-        /// </summary>
-        internal static System.Drawing.Bitmap orderdetailexit1 {
-            get {
-                object obj = ResourceManager.GetObject("orderdetailexit1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

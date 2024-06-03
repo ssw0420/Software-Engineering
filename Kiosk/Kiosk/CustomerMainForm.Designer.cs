@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            // this.BackgroundImage = global::Kiosk.Properties.Resources.CustomerFormImg;
+            this.BackgroundImage = global::Kiosk.Properties.Resources.CustomerFormImg;
             this.ClientSize = new System.Drawing.Size(1336, 1024);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CustomerMainForm";
