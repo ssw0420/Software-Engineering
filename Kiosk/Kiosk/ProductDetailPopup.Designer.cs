@@ -53,7 +53,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(224)))), ((int)(((byte)(220)))));
-            this.panel1.BackgroundImage = global::Kiosk.Properties.Resources.detailPanel;
+            // this.panel1.BackgroundImage = global::Kiosk.Properties.Resources.detailPanel;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.label4);
@@ -115,7 +115,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.SystemColors.Window;
-            this.pictureBox6.Image = global::Kiosk.Properties.Resources.BigStar;
+            // this.pictureBox6.Image = global::Kiosk.Properties.Resources.BigStar;
             this.pictureBox6.Location = new System.Drawing.Point(40, 376);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(56, 50);
@@ -127,7 +127,7 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox5.Image = global::Kiosk.Properties.Resources.kimchiDetail;
+            // this.pictureBox5.Image = global::Kiosk.Properties.Resources.kimchiDetail;
             this.pictureBox5.Location = new System.Drawing.Point(20, 27);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(342, 343);
@@ -137,7 +137,7 @@
             // 
             // quanPlus
             // 
-            this.quanPlus.Image = global::Kiosk.Properties.Resources.orderproduct_1;
+            // this.quanPlus.Image = global::Kiosk.Properties.Resources.orderproduct_1;
             this.quanPlus.Location = new System.Drawing.Point(561, 621);
             this.quanPlus.Name = "quanPlus";
             this.quanPlus.Size = new System.Drawing.Size(95, 115);
@@ -148,7 +148,7 @@
             // 
             // quanMinus
             // 
-            this.quanMinus.Image = global::Kiosk.Properties.Resources.orderproduct_;
+            // this.quanMinus.Image = global::Kiosk.Properties.Resources.orderproduct_;
             this.quanMinus.Location = new System.Drawing.Point(317, 644);
             this.quanMinus.Name = "quanMinus";
             this.quanMinus.Size = new System.Drawing.Size(95, 130);
@@ -159,7 +159,7 @@
             // 
             // cancelProduct
             // 
-            this.cancelProduct.Image = global::Kiosk.Properties.Resources.orderproductcancel;
+            // this.cancelProduct.Image = global::Kiosk.Properties.Resources.orderproductcancel;
             this.cancelProduct.Location = new System.Drawing.Point(50, 635);
             this.cancelProduct.Name = "cancelProduct";
             this.cancelProduct.Size = new System.Drawing.Size(149, 101);
@@ -170,7 +170,7 @@
             // 
             // addProduct
             // 
-            this.addProduct.Image = global::Kiosk.Properties.Resources.baguniadd;
+            // this.addProduct.Image = global::Kiosk.Properties.Resources.baguniadd;
             this.addProduct.Location = new System.Drawing.Point(683, 621);
             this.addProduct.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addProduct.Name = "addProduct";
