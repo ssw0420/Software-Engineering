@@ -123,6 +123,12 @@
   </data>
   <data name="real_Kiosk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\FormImg\real_Kiosk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+<<<<<<< HEAD
+=======
+  </data>
+  <data name="OrderCheckForm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\FormImg\OrderCheckForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> parent of 24e7921 (주문내역)
   </data>
   <data name="detailPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\customermainimg\detailPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +154,19 @@
   <data name="baguni" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\customermainimg\baguni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
   <data name="cider" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\drinkimg\cider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+  <data name="customermain_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\customermainimg\customermain-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrderCheckForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\FormImg\OrderCheckForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haemultang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\soupimg\haemultang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> parent of 24e7921 (주문내역)
   </data>
   <data name="Kiosk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\FormImg\Kiosk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,6 +207,12 @@
   <data name="umuktang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\soupimg\umuktang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
+=======
+  <data name="ordercheckyes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\ordercheckimg\ordercheckyes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+>>>>>>> parent of 24e7921 (주문내역)
   <data name="real_Kiosk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\FormImg\real_Kiosk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -199,8 +222,13 @@
   <data name="soupcategory" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\customermainimg\soupcategory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
   <data name="ordercheckyes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\ordercheckimg\ordercheckyes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+  <data name="cider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\drinkimg\cider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> parent of 24e7921 (주문내역)
   </data>
   <data name="maratang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\soupimg\maratang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,9 +251,12 @@
   <data name="orderproduct_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\orderproductimg\orderproduct+.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
   <data name="staradd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\orderdetailimg\staradd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+=======
+>>>>>>> parent of 24e7921 (주문내역)
   <data name="orderproductcancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\orderproductimg\orderproductcancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -238,13 +269,23 @@
   <data name="customermain_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\customermainimg\customermain-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
   <data name="OrderCheckForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\FormImg\OrderCheckForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+  <data name="staradd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\orderdetailimg\staradd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> parent of 24e7921 (주문내역)
   </data>
   <data name="real_Kiosk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\FormImg\real_Kiosk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
   <data name="OrderCheckForm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\kioskimg\FormImg\OrderCheckForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+  <data name="real_Kiosk5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\kioskimg\FormImg\real_Kiosk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> parent of 24e7921 (주문내역)
   </data>
 </root>

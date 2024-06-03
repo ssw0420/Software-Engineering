@@ -34,11 +34,23 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackgroundImage = global::Kiosk.Properties.Resources.real_Kiosk4;
             this.ClientSize = new System.Drawing.Size(1336, 1024);
+=======
+            this.BackgroundImage = global::Kiosk.Properties.Resources.real_Kiosk5;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1336, 707);
+            this.DoubleBuffered = true;
+>>>>>>> parent of 24e7921 (주문내역)
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OrderDetailPopup";
             this.Text = "OrderDetailPopup";
+<<<<<<< HEAD
+=======
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.OrderDetailPopup_Load);
+>>>>>>> parent of 24e7921 (주문내역)
             this.ResumeLayout(false);
 
         }
