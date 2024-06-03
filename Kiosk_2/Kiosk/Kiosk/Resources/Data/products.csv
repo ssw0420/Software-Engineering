@@ -1,0 +1,12 @@
+productId,productName,productImgPath,productCategory,productPrice,productContent,productRating,categoryId,userId
+1,김치찌개,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\KimchiStew.png",국물류,8500,"돼지고기, 김치가 들어가 있는 전통의 맛이 느껴지는 김치찌개입니다!",4.3,1,1
+2,어묵탕,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\FishCakeSoup.png",국물류,9000,"따뜻한 국물과 쫄깃한 어묵이 일품인 어묵탕입니다!",4.5,1,1
+3,해물탕,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\SeafoodStew.png",국물류,10000,"신선한 해산물이 가득한 얼큰한 해물탕입니다!",4.7,1,1
+4,차돌된장찌개,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\ChadolDoenjang.png",국물류,7500,"고소한 차돌박이가 들어가 더욱 맛있는 된장찌개입니다!",4.8,1,1
+5,마라탕,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\Malatang.png",국물류,9500,"매운맛이 일품인 중국식 전통 마라탕입니다!",4.9,1,1
+6,돈코츠라멘,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\TonkotsuRamen.png",국물류,7500,"진한 돈코츠 육수에 면이 잘 어울리는 돈코츠라멘입니다!",5.0,1,1
+7,모둠튀김,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\AssortedTempura.png",튀김류,12000,"바삭하고 다양한 종류의 모둠튀김입니다!",4.6,2,1
+8,튀김꼬치,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\TempuraSkewer.png",튀김류,5000,"바삭하고 고소한 튀김꼬치입니다!",4.4,2,1
+9,코카콜라,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\CocaCola.png",음료류,2000,"시원한 탄산이 일품인 코카콜라입니다!",4.8,3,1
+10,포카리스웨트,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\PocariSweat.png",음료류,2000,"갈증 해소에 좋은 포카리스웨트입니다!",4.7,3,1
+11,칠성사이다,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\ChilsungCider.png",음료류,2000,"상큼한 맛이 일품인 칠성사이다입니다!",4.9,3,1
