@@ -27,7 +27,4 @@ C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.exe
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.pdb
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMainForm.resources
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderDetailPopup.resources
-<<<<<<< HEAD
 C:\kiosk_2\Software-Engineering\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCheckPopup.resources
-=======
->>>>>>> parent of 24e7921 (주문내역)

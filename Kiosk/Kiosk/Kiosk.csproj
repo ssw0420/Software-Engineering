@@ -235,9 +235,5 @@
   <ItemGroup>
     <None Include="kioskimg\FormImg\real_OrderCheckForm.png" />
   </ItemGroup>
-<<<<<<< HEAD
-=======
-  <ItemGroup />
->>>>>>> parent of 24e7921 (주문내역)
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
