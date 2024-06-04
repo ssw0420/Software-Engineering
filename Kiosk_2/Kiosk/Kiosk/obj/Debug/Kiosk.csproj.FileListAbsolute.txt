@@ -27,3 +27,4 @@ C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.exe
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.pdb
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.OrderDetailPopup.resources
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.ProductDetailPopup.resources
+C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCheckPopup.resources

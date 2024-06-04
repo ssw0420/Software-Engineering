@@ -15,6 +15,7 @@ namespace Kiosk
     {
         private List<Category> categories;
         private List<Product> products;
+        private List<Panel> cartItems = new List<Panel>(); // 장바구니 아이템을 저장할 리스트
         private int nowCategories;
         public CustomerMainForm()
         {
@@ -23,6 +24,33 @@ namespace Kiosk
             LoadProducts();
             DisplayCategories();
             DisplayProducts(1);
+            InitializeSummaryLabels();
+        }
+
+        private void InitializeSummaryLabels()
+        {
+            totalQuantityLabel.Text = "0 개";
+            totalProductTypesLabel.Text = "0 가지";
+            totalPriceLabel.Text = "합계 0 원";
+        }
+
+        private void UpdateSummaryLabels()
+        {
+            int totalQuantity = cartItems.Sum(panel =>
+            {
+                var quantityLabel = panel.Controls.OfType<Label>().First(l => l.Text.StartsWith("수량:"));
+                return int.Parse(quantityLabel.Text.Split(':')[1].Trim());
+            });
+
+            int totalPrice = cartItems.Sum(panel =>
+            {
+                var priceLabel = panel.Controls.OfType<Label>().First(l => l.Text.StartsWith("가격:"));
+                return int.Parse(priceLabel.Text.Split(':')[1].Trim().Split(' ')[0]);
+            });
+
+            totalQuantityLabel.Text = $"{totalQuantity} 개";
+            totalProductTypesLabel.Text = $"{cartItems.Count} 가지";
+            totalPriceLabel.Text = $"합계 {totalPrice} 원";
         }
 
         private void DisplayCategories()
@@ -155,6 +183,124 @@ namespace Kiosk
             }
         }
 
+        public void AddToCart(Product product, int quantity)
+        {
+            // 장바구니에 동일한 상품이 있는지 확인
+            if (cartItems.Any(panel => (int)panel.Tag == product.ProductId))
+            {
+                MessageBox.Show("현재 장바구니에 등록된 상품입니다.");
+                return;
+            }
+
+            var cartItemPanel = new Panel
+            {
+                Width = 250,
+                Height = 100,
+                Margin = new Padding(10),
+                BorderStyle = BorderStyle.FixedSingle,
+                BackColor = Color.FromArgb(237, 233, 226),
+                Tag = product.ProductId
+            };
+
+            var productNameLabel = new Label
+            {
+                Text = product.ProductName,
+                TextAlign = ContentAlignment.MiddleLeft,
+                Dock = DockStyle.Top,
+                Height = 20,
+                BackColor = Color.FromArgb(237, 233, 226)
+            };
+
+            var productPriceLabel = new Label
+            {
+                Text = $"가격: {product.ProductPrice * quantity} 원",
+                TextAlign = ContentAlignment.MiddleLeft,
+                Dock = DockStyle.Top,
+                Height = 20,
+                BackColor = Color.FromArgb(237, 233, 226)
+            };
+
+            var productQuantityLabel = new Label
+            {
+                Text = $"수량: {quantity}",
+                TextAlign = ContentAlignment.MiddleLeft,
+                Dock = DockStyle.Top,
+                Height = 20,
+                BackColor = Color.FromArgb(237, 233, 226)
+            };
+
+            var decreaseButton = new Button
+            {
+                Text = "-",
+                Width = 20,
+                Height = 20,
+                Dock = DockStyle.Left
+            };
+            decreaseButton.Click += (s, e) => ModifyCartItemQuantity(cartItemPanel, false);
+
+            var increaseButton = new Button
+            {
+                Text = "+",
+                Width = 20,
+                Height = 20,
+                Dock = DockStyle.Left
+            };
+            increaseButton.Click += (s, e) => ModifyCartItemQuantity(cartItemPanel, true);
+
+            var removeButton = new Button
+            {
+                Text = "삭제",
+                Width = 50,
+                Height = 20,
+                Dock = DockStyle.Right
+            };
+            removeButton.Click += (s, e) => RemoveCartItem(cartItemPanel);
+
+            cartItemPanel.Controls.Add(removeButton);
+            cartItemPanel.Controls.Add(increaseButton);
+            cartItemPanel.Controls.Add(decreaseButton);
+            cartItemPanel.Controls.Add(productQuantityLabel);
+            cartItemPanel.Controls.Add(productPriceLabel);
+            cartItemPanel.Controls.Add(productNameLabel);
+
+            cartItems.Add(cartItemPanel);
+            CartLayoutPanel.Controls.Add(cartItemPanel); // 장바구니 패널에 추가
+
+
+            UpdateSummaryLabels(); // 하단부 라벨 업데이트
+        }
+
+        private void ModifyCartItemQuantity(Panel cartItemPanel, bool isIncrease)
+        {
+            var productId = (int)cartItemPanel.Tag;
+            var product = products.First(p => p.ProductId == productId);
+            var quantityLabel = cartItemPanel.Controls.OfType<Label>().First(l => l.Text.StartsWith("수량:"));
+            var priceLabel = cartItemPanel.Controls.OfType<Label>().First(l => l.Text.StartsWith("가격:"));
+
+            int quantity = int.Parse(quantityLabel.Text.Split(':')[1].Trim());
+            if (isIncrease)
+            {
+                quantity++;
+            }
+            else
+            {
+                if (quantity > 1)
+                    quantity--;
+            }
+
+            quantityLabel.Text = $"수량: {quantity}";
+            priceLabel.Text = $"가격: {product.ProductPrice * quantity} 원";
+
+            UpdateSummaryLabels(); // 하단부 라벨 업데이트
+        }
+
+        private void RemoveCartItem(Panel cartItemPanel)
+        {
+            cartItems.Remove(cartItemPanel);
+            CartLayoutPanel.Controls.Remove(cartItemPanel);
+            UpdateSummaryLabels(); // 하단부 라벨 업데이트
+        }
+
         private void ProductPanel_Click(object sender, EventArgs e)
         {
             var panel = sender as Panel;
@@ -162,18 +308,11 @@ namespace Kiosk
             DisplayProductDetail(productId);
         }
 
-        private void PictureBox_Click(object sender, EventArgs e)
-        {
-            var pic = sender as PictureBox;
-            var productId = (int)pic.Tag;
-            DisplayProductDetail(productId);
-        }
-
 
         private void DisplayProductDetail(int productId)
         {
             var selectedProduct = products.FirstOrDefault(p => p.ProductId == productId);
-            ProductDetailPopup productDetailPopup = new ProductDetailPopup(selectedProduct);
+            ProductDetailPopup productDetailPopup = new ProductDetailPopup(selectedProduct, this);
             productDetailPopup.ShowDialog();
         }
 
@@ -182,6 +321,12 @@ namespace Kiosk
             OrderDetailPopup orderDetailPopup = new OrderDetailPopup();
             orderDetailPopup.Show();
             this.Hide();
+        }
+
+        private void cartOrder_Click(object sender, EventArgs e)
+        {
+            OrderCheckPopup orderCheckPopup = new OrderCheckPopup();
+            orderCheckPopup.ShowDialog();
         }
     }
 }

@@ -14,10 +14,14 @@ namespace Kiosk
     public partial class ProductDetailPopup : Form
     {
         int quantity = 1;
-        private List<Product> products;
-        public ProductDetailPopup(Product product)
+        // private List<Product> products;
+        private Product selectedProduct;
+        private CustomerMainForm mainForm;
+        public ProductDetailPopup(Product product, CustomerMainForm form)
         {
             InitializeComponent();
+            mainForm = form;
+            selectedProduct = product;
             LoadProductDetail(product);
         }
         private void LoadProductDetail(Product product)
@@ -53,6 +57,10 @@ namespace Kiosk
 
         private void productDetailMinus_Click(object sender, EventArgs e)
         {
+            if(quantity <= 1)
+            {
+                return;
+            }
             ModifyProductQuantity(false);
         }
 
@@ -63,10 +71,15 @@ namespace Kiosk
 
         private void productDetailAdd_Click(object sender, EventArgs e)
         {
-            //수량이 1이상일 때
-            if (quantity >= 1) MessageBox.Show("상품이 추가되었습니다.");
-            else MessageBox.Show("상품이 한 개 이상이어야 합니다!");
-
+            if (quantity >= 1)
+            {
+                mainForm.AddToCart(selectedProduct, quantity);
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("상품이 한 개 이상이어야 합니다!");
+            }
         }
     }
 }

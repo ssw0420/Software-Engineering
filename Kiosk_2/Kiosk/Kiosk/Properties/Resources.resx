@@ -118,20 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ProductDetailCancelButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\ButtonImg\ProductDetailCancelButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="OrderDetailForm_TablePlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\FormImg\OrderDetailForm_TablePlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CustomerMainLeftPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\PanelImg\CustomerMainLeftPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DefaultCategoryButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\ButtonImg\DefaultCategoryButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ProductDetailAddButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\ButtonImg\ProductDetailAddButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ProductDetailPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ButtonImg\ProductDetailPlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OrderDetailButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\ButtonImg\OrderDetailButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProductDetailAddButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ButtonImg\ProductDetailAddButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PaymentButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ButtonImg\PaymentButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="redirectMainButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\ButtonImg\redirectMainButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,16 +145,40 @@
   <data name="CustomerMainForm_PanelPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\FormImg\CustomerMainForm_PanelPlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="OrderCancelButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ButtonImg\OrderCancelButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrderCheckText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TextImg\OrderCheckText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrderCompleteText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\TextImg\OrderCompleteText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrderYesButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ButtonImg\OrderYesButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrderPopupForm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\FormImg\OrderPopupForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrderPopupForm3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\FormImg\OrderPopupForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CallManagerButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\ButtonImg\CallManagerButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CustomerMainLeftPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\PanelImg\CustomerMainLeftPanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ProductDetailCancelButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ButtonImg\ProductDetailCancelButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProductDetailCancelButton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ButtonImg\ProductDetailCancelButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CustomerMainForm_TablePlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\FormImg\CustomerMainForm_TablePlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OrderPopupForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\FormImg\OrderPopupForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrderPopupForm2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\FormImg\OrderPopupForm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CustomerMainForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -157,7 +187,7 @@
   <data name="ProductDetailMinusButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\ButtonImg\ProductDetailMinusButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ProductDetailPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\ButtonImg\ProductDetailPlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="orderCompleteButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ButtonImg\orderCompleteButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

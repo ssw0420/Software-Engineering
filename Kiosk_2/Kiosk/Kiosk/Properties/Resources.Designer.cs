@@ -123,6 +123,46 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap OrderCancelButton {
+            get {
+                object obj = ResourceManager.GetObject("OrderCancelButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap OrderCheckText {
+            get {
+                object obj = ResourceManager.GetObject("OrderCheckText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap orderCompleteButton {
+            get {
+                object obj = ResourceManager.GetObject("orderCompleteButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap OrderCompleteText {
+            get {
+                object obj = ResourceManager.GetObject("OrderCompleteText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap OrderDetailButton {
             get {
                 object obj = ResourceManager.GetObject("OrderDetailButton", resourceCulture);
@@ -153,6 +193,56 @@ namespace Kiosk.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap OrderPopupForm1 {
+            get {
+                object obj = ResourceManager.GetObject("OrderPopupForm1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap OrderPopupForm2 {
+            get {
+                object obj = ResourceManager.GetObject("OrderPopupForm2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap OrderPopupForm3 {
+            get {
+                object obj = ResourceManager.GetObject("OrderPopupForm3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap OrderYesButton {
+            get {
+                object obj = ResourceManager.GetObject("OrderYesButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap PaymentButton {
+            get {
+                object obj = ResourceManager.GetObject("PaymentButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap ProductDetailAddButton {
             get {
                 object obj = ResourceManager.GetObject("ProductDetailAddButton", resourceCulture);
@@ -166,6 +256,16 @@ namespace Kiosk.Properties {
         internal static System.Drawing.Bitmap ProductDetailCancelButton {
             get {
                 object obj = ResourceManager.GetObject("ProductDetailCancelButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap ProductDetailCancelButton1 {
+            get {
+                object obj = ResourceManager.GetObject("ProductDetailCancelButton1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

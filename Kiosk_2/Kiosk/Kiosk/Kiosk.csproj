@@ -81,6 +81,18 @@
     </Compile>
     <Compile Include="FileRead.cs" />
     <Compile Include="Order.cs" />
+    <Compile Include="OrderCheckPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderCheckPopup.Designer.cs">
+      <DependentUpon>OrderCheckPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderCompletePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderCompletePopup.Designer.cs">
+      <DependentUpon>OrderCompletePopup.cs</DependentUpon>
+    </Compile>
     <Compile Include="OrderDetailPopup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +111,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CustomerMainForm.resx">
       <DependentUpon>CustomerMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderCheckPopup.resx">
+      <DependentUpon>OrderCheckPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderCompletePopup.resx">
+      <DependentUpon>OrderCompletePopup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderDetailPopup.resx">
       <DependentUpon>OrderDetailPopup.cs</DependentUpon>
@@ -175,6 +193,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Images\ButtonImg\ProductDetailPlus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\ButtonImg\PaymentButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\ButtonImg\OrderYesButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\ButtonImg\OrderCancelButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\TextImg\OrderCheckText.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\TextImg\OrderCompleteText.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\ButtonImg\orderCompleteButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
