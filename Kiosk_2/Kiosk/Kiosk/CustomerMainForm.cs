@@ -17,6 +17,10 @@ namespace Kiosk
         private List<Product> products;
         private List<Panel> cartItems = new List<Panel>(); // 장바구니 아이템을 저장할 리스트
         private int nowCategories;
+        private int totalProductTypes;
+        private int totalQuantity;
+        private int totalPrice;
+        
         public CustomerMainForm()
         {
             InitializeComponent();
@@ -36,20 +40,20 @@ namespace Kiosk
 
         private void UpdateSummaryLabels()
         {
-            int totalQuantity = cartItems.Sum(panel =>
+            totalQuantity = cartItems.Sum(panel =>
             {
                 var quantityLabel = panel.Controls.OfType<Label>().First(l => l.Text.StartsWith("수량:"));
                 return int.Parse(quantityLabel.Text.Split(':')[1].Trim());
             });
 
-            int totalPrice = cartItems.Sum(panel =>
+            totalPrice = cartItems.Sum(panel =>
             {
                 var priceLabel = panel.Controls.OfType<Label>().First(l => l.Text.StartsWith("가격:"));
                 return int.Parse(priceLabel.Text.Split(':')[1].Trim().Split(' ')[0]);
             });
-
+            totalProductTypes = cartItems.Count;
             totalQuantityLabel.Text = $"{totalQuantity} 개";
-            totalProductTypesLabel.Text = $"{cartItems.Count} 가지";
+            totalProductTypesLabel.Text = $"{totalProductTypes} 가지";
             totalPriceLabel.Text = $"합계 {totalPrice} 원";
         }
 
@@ -325,8 +329,12 @@ namespace Kiosk
 
         private void cartOrder_Click(object sender, EventArgs e)
         {
-            OrderCheckPopup orderCheckPopup = new OrderCheckPopup();
-            orderCheckPopup.ShowDialog();
+            if (totalProductTypes >= 1)
+            {
+                OrderCheckPopup orderCheckPopup = new OrderCheckPopup(totalProductTypes, totalQuantity, totalPrice);
+                orderCheckPopup.ShowDialog();
+            }
+            else MessageBox.Show("상품이 한 개 이상이어야 합니다!");
         }
     }
 }
