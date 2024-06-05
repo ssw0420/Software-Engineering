@@ -78,10 +78,10 @@
             // 
             this.orderProductTypesLabel.AutoSize = true;
             this.orderProductTypesLabel.BackColor = System.Drawing.Color.White;
-            this.orderProductTypesLabel.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.orderProductTypesLabel.Font = new System.Drawing.Font("굴림", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.orderProductTypesLabel.Location = new System.Drawing.Point(199, 375);
             this.orderProductTypesLabel.Name = "orderProductTypesLabel";
-            this.orderProductTypesLabel.Size = new System.Drawing.Size(64, 21);
+            this.orderProductTypesLabel.Size = new System.Drawing.Size(107, 32);
             this.orderProductTypesLabel.TabIndex = 3;
             this.orderProductTypesLabel.Text = "label1";
             // 
@@ -89,10 +89,10 @@
             // 
             this.orderQuantityLabel.AutoSize = true;
             this.orderQuantityLabel.BackColor = System.Drawing.Color.White;
-            this.orderQuantityLabel.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.orderQuantityLabel.Font = new System.Drawing.Font("굴림", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.orderQuantityLabel.Location = new System.Drawing.Point(381, 375);
             this.orderQuantityLabel.Name = "orderQuantityLabel";
-            this.orderQuantityLabel.Size = new System.Drawing.Size(64, 21);
+            this.orderQuantityLabel.Size = new System.Drawing.Size(107, 32);
             this.orderQuantityLabel.TabIndex = 4;
             this.orderQuantityLabel.Text = "label2";
             // 
@@ -100,11 +100,11 @@
             // 
             this.orderTotalPriceLabel.AutoSize = true;
             this.orderTotalPriceLabel.BackColor = System.Drawing.Color.White;
-            this.orderTotalPriceLabel.Font = new System.Drawing.Font("Gulim", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.orderTotalPriceLabel.Font = new System.Drawing.Font("굴림", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.orderTotalPriceLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.orderTotalPriceLabel.Location = new System.Drawing.Point(621, 367);
+            this.orderTotalPriceLabel.Location = new System.Drawing.Point(577, 370);
             this.orderTotalPriceLabel.Name = "orderTotalPriceLabel";
-            this.orderTotalPriceLabel.Size = new System.Drawing.Size(100, 29);
+            this.orderTotalPriceLabel.Size = new System.Drawing.Size(126, 37);
             this.orderTotalPriceLabel.TabIndex = 5;
             this.orderTotalPriceLabel.Text = "label3";
             // 

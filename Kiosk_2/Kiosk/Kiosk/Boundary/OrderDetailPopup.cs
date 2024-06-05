@@ -16,6 +16,8 @@ namespace Kiosk
         private List<Order> orders;
         private List<OrderItem> orderItems;
         private List<Product> products;
+        private int totalQuantity = 0;
+
         public OrderDetailPopup()
         {
             InitializeComponent();
@@ -23,6 +25,7 @@ namespace Kiosk
             LoadData();
             DisplayOrderDetails();
         }
+
         private void EnsureFilesExist()
         {
             string orderFilePath = "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\orders.csv";
@@ -58,31 +61,42 @@ namespace Kiosk
 
             foreach (var orderGroup in groupedOrders)
             {
-                
-                var orderGroupPanel = new Panel
+                // 주문 시간 패널 생성
+                var orderTimePanel = new Panel
                 {
-                    Width = 750,
-                    Height = 150,
-                    Margin = new Padding(10),
-                    BorderStyle = BorderStyle.FixedSingle,
-                    BackColor = Color.FromArgb(237, 233, 226)
+                    Width = OrderDetailList.Width - 20,
+                    Height = 50,
+                    Margin = new Padding(10, 10, 10, 0),
+                    BackColor = Color.FromArgb(245, 245, 245) // 패널 배경색 변경
                 };
+
 
                 var orderDateLabel = new Label
                 {
-                    Text = $"주문시간: {orderGroup.Key}",
+                    Text = $"{orderGroup.Key}",
                     TextAlign = ContentAlignment.MiddleLeft,
-                    Dock = DockStyle.Top,
+                    Dock = DockStyle.Left,
+                    Width = OrderDetailList.Width / 3,
                     Height = 30,
-                    BackColor = Color.FromArgb(237, 233, 226)
+                    Font = new Font("굴림", 19, FontStyle.Bold), // 글씨 크기 조정
+                    BackColor = Color.FromArgb(245, 245, 245) // 라벨 배경색 변경
                 };
+
+                orderTimePanel.Controls.Add(orderDateLabel);
+                OrderDetailList.Controls.Add(orderTimePanel);
 
                 var orderItemDetailsPanel = new FlowLayoutPanel
                 {
-                    Dock = DockStyle.Fill,
+                    Dock = DockStyle.Top,
                     AutoScroll = true,
-                    FlowDirection = FlowDirection.TopDown
+                    FlowDirection = FlowDirection.TopDown,
+                    WrapContents = false,
+                    Width = OrderDetailList.Width - 20,
+                    Height = OrderDetailList.Height,
+                    BackColor = Color.FromArgb(255, 255, 255) // 패널 배경색 변경
                 };
+
+                int itemCount = 0; // 항목 개수 카운트
 
                 foreach (var order in orderGroup)
                 {
@@ -96,61 +110,71 @@ namespace Kiosk
 
                     foreach (var item in orderItemDetails)
                     {
+                        itemCount++;
                         var orderItemPanel = new Panel
                         {
-                            Width = 720,
-                            Height = 30,
-                            Margin = new Padding(5),
-                            BorderStyle = BorderStyle.None,
-                            BackColor = Color.White
-                        };
-
-                        var productNameLabel = new Label
-                        {
-                            Text = item.ProductName,
-                            Width = 200,
-                            TextAlign = ContentAlignment.MiddleLeft,
-                            Dock = DockStyle.Left
-                        };
-
-                        var quantityLabel = new Label
-                        {
-                            Text = $"{item.Quantity} 개",
-                            Width = 100,
-                            TextAlign = ContentAlignment.MiddleLeft,
-                            Dock = DockStyle.Left
-                        };
-
-                        var priceLabel = new Label
-                        {
-                            Text = $"{item.Price} 원",
-                            Width = 100,
-                            TextAlign = ContentAlignment.MiddleLeft,
-                            Dock = DockStyle.Left
+                            Width = orderItemDetailsPanel.Width - 20,
+                            Height = 50,
+                            Margin = new Padding(5, 15, 5, 15), // 항목 간 간격 추가
+                            BorderStyle = BorderStyle.None, // 패널 테두리 제거
+                            BackColor = Color.FromArgb(255, 255, 255) // 패널 배경색 변경
                         };
 
                         var registerButton = new Button
                         {
                             Text = "등록",
-                            Width = 50,
-                            Height = 20,
-                            Dock = DockStyle.Right
+                            Width = 70,
+                            Height = 30,
+                            Dock = DockStyle.Right // 버튼을 오른쪽으로 이동
                         };
 
-                        orderItemPanel.Controls.Add(registerButton);
-                        orderItemPanel.Controls.Add(priceLabel);
-                        orderItemPanel.Controls.Add(quantityLabel);
+                        var priceLabel = new Label
+                        {
+                            Text = $"{item.Price} 원",
+                            Width = 300,
+                            TextAlign = ContentAlignment.MiddleCenter,
+                            Font = new Font("굴림", 19, FontStyle.Bold), // 글씨 크기 조정
+                            Dock = DockStyle.Right,
+                            BackColor = Color.FromArgb(255, 255, 255) // 라벨 배경색 변경
+                        };
+
+                        var quantityLabel = new Label
+                        {
+                            Text = $"{item.Quantity} 개",
+                            Width = 200,
+                            TextAlign = ContentAlignment.MiddleCenter,
+                            Font = new Font("굴림", 19, FontStyle.Bold), // 글씨 크기 조정
+                            Dock = DockStyle.Right,
+                            BackColor = Color.FromArgb(255, 255, 255) // 라벨 배경색 변경
+                        };
+
+                        var productNameLabel = new Label
+                        {
+                            Text = item.ProductName,
+                            Width = 290,
+                            TextAlign = ContentAlignment.MiddleLeft,
+                            Font = new Font("굴림", 19, FontStyle.Bold), // 글씨 크기 조정
+                            Dock = DockStyle.Right,
+                            BackColor = Color.FromArgb(255, 255, 255) // 라벨 배경색 변경
+                        };
                         orderItemPanel.Controls.Add(productNameLabel);
+                        orderItemPanel.Controls.Add(quantityLabel);
+                        orderItemPanel.Controls.Add(priceLabel);
+                        orderItemPanel.Controls.Add(registerButton);
 
                         orderItemDetailsPanel.Controls.Add(orderItemPanel);
+
+                        // 총 수량 계산
+                        totalQuantity += item.Quantity;
                     }
                 }
-
-                orderGroupPanel.Controls.Add(orderItemDetailsPanel);
-                orderGroupPanel.Controls.Add(orderDateLabel);
-
-                OrderDetailList.Controls.Add(orderGroupPanel);
+                orderItemDetailsPanel.Height = itemCount * 100; // 패널 크기를 동적으로 조절
+                OrderDetailList.Controls.Add(orderItemDetailsPanel);
             }
+
+            // 총 주문 수량 라벨 업데이트
+            totalQuantityLabel.Text = $"{totalQuantity} 개";
+            totalQuantityLabel.Font = new Font("굴림", 29, FontStyle.Bold); // 총 주문 수량 글씨 크기 조정
         }
 
         private void redirectMain_Click(object sender, EventArgs e)
@@ -159,5 +183,6 @@ namespace Kiosk
             customerMainForm.Show();
             this.Hide();
         }
+
     }
 }

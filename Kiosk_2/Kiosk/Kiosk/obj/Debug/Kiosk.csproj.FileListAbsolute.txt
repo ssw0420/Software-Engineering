@@ -28,4 +28,4 @@ C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.OrderDetailP
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.ProductDetailPopup.resources
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCheckPopup.resources
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCompletePopup.resources
-C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.Up2Date
+C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CopyComplete

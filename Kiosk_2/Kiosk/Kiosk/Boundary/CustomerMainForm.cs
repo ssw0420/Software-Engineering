@@ -72,7 +72,7 @@ namespace Kiosk
         {
             foreach (var category in categories)
             {
-
+                // 카테고리 라벨 폰트 설정 및 Bold
                 var label = new Label
                 {
                     Name = category.CategoryName,
@@ -84,7 +84,8 @@ namespace Kiosk
                     AutoSize = false,
                     Margin = new Padding(15),
                     TextAlign = ContentAlignment.MiddleCenter,
-                    Tag = category.CategoryId
+                    Tag = category.CategoryId,
+                    Font = new Font("굴림", 12, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
                 };
                 label.Click += CategoryLabel_Click;
                 CategoryList.Controls.Add(label);
@@ -135,7 +136,8 @@ namespace Kiosk
                     Dock = DockStyle.Top,
                     Height = 30,
                     BackColor = Color.FromArgb(237, 233, 226),
-                    Margin = new Padding(5)
+                    Margin = new Padding(5),
+                    Font = new Font("굴림", 12, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
                 };
                 productLabel.Click += (s, e) => ProductPanel_Click(productPanel, e);
 
@@ -160,7 +162,8 @@ namespace Kiosk
                     Dock = DockStyle.Top,
                     Height = 30,
                     BackColor = Color.FromArgb(237, 233, 226),
-                    Margin = new Padding(5)
+                    Margin = new Padding(5),
+                    Font = new Font("굴림", 12, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
                 };
                 ratingLabel.Click += (s, e) => ProductPanel_Click(productPanel, e);
 
@@ -172,7 +175,8 @@ namespace Kiosk
                     Dock = DockStyle.Top,
                     Height = 30,
                     BackColor = Color.FromArgb(237, 233, 226),
-                    Margin = new Padding(5)
+                    Margin = new Padding(5),
+                    Font = new Font("굴림", 12, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
                 };
                 priceLabel.Click += (s, e) => ProductPanel_Click(productPanel, e);
 
@@ -201,7 +205,7 @@ namespace Kiosk
                 Width = 250,
                 Height = 100,
                 Margin = new Padding(10),
-                BorderStyle = BorderStyle.FixedSingle,
+                BorderStyle = BorderStyle.None,
                 BackColor = Color.FromArgb(237, 233, 226),
                 Tag = product.ProductId
             };
@@ -212,7 +216,8 @@ namespace Kiosk
                 TextAlign = ContentAlignment.MiddleLeft,
                 Dock = DockStyle.Top,
                 Height = 20,
-                BackColor = Color.FromArgb(237, 233, 226)
+                BackColor = Color.FromArgb(237, 233, 226),
+                Font = new Font("굴림", 12, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
             };
 
             var productPriceLabel = new Label
@@ -221,7 +226,8 @@ namespace Kiosk
                 TextAlign = ContentAlignment.MiddleLeft,
                 Dock = DockStyle.Top,
                 Height = 20,
-                BackColor = Color.FromArgb(237, 233, 226)
+                BackColor = Color.FromArgb(237, 233, 226),
+                Font = new Font("굴림", 12, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
             };
 
             var productQuantityLabel = new Label
@@ -230,24 +236,27 @@ namespace Kiosk
                 TextAlign = ContentAlignment.MiddleLeft,
                 Dock = DockStyle.Top,
                 Height = 20,
-                BackColor = Color.FromArgb(237, 233, 226)
+                BackColor = Color.FromArgb(237, 233, 226),
+                Font = new Font("굴림", 12, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
             };
 
             var decreaseButton = new Button
             {
                 Text = "-",
-                Width = 20,
-                Height = 20,
-                Dock = DockStyle.Left
+                Width = 30,
+                Height = 30,
+                Dock = DockStyle.Left,
+                Font = new Font("굴림", 12, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
             };
             decreaseButton.Click += (s, e) => ModifyCartItemQuantity(cartItemPanel, false);
 
             var increaseButton = new Button
             {
                 Text = "+",
-                Width = 20,
-                Height = 20,
-                Dock = DockStyle.Left
+                Width = 30,
+                Height = 30,
+                Dock = DockStyle.Left,
+                Font = new Font("굴림", 12, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
             };
             increaseButton.Click += (s, e) => ModifyCartItemQuantity(cartItemPanel, true);
 
@@ -255,8 +264,9 @@ namespace Kiosk
             {
                 Text = "삭제",
                 Width = 50,
-                Height = 20,
-                Dock = DockStyle.Right
+                Height = 30,
+                Dock = DockStyle.Right,
+                Font = new Font("굴림", 12, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
             };
             removeButton.Click += (s, e) => RemoveCartItem(cartItemPanel);
 
@@ -269,7 +279,6 @@ namespace Kiosk
 
             cartItems.Add(cartItemPanel);
             CartLayoutPanel.Controls.Add(cartItemPanel); // 장바구니 패널에 추가
-
 
             UpdateSummaryLabels(); // 하단부 라벨 업데이트
         }
