@@ -80,6 +80,7 @@
       <DependentUpon>CustomerMainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="FileRead.cs" />
+    <Compile Include="FileWrite.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderCheckPopup.cs">
       <SubType>Form</SubType>

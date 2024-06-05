@@ -8,6 +8,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using CsvHelper.Configuration;
+using CsvHelper;
+using System.Globalization;
 
 namespace Kiosk
 {
@@ -15,7 +19,7 @@ namespace Kiosk
     {
         private List<Category> categories;
         private List<Product> products;
-        private List<Panel> cartItems = new List<Panel>(); // 장바구니 아이템을 저장할 리스트
+        private List<Panel> cartItems = new List<Panel>();
         private int nowCategories;
         private int totalProductTypes;
         private int totalQuantity;
@@ -29,6 +33,8 @@ namespace Kiosk
             DisplayCategories();
             DisplayProducts(1);
             InitializeSummaryLabels();
+
+            this.FormClosing += CustomerMainForm_FormClosing; // 폼이 닫힐 때 이벤트 핸들러 추가
         }
 
         private void InitializeSummaryLabels()
@@ -36,6 +42,16 @@ namespace Kiosk
             totalQuantityLabel.Text = "0 개";
             totalProductTypesLabel.Text = "0 가지";
             totalPriceLabel.Text = "합계 0 원";
+        }
+
+        private void LoadCategories()
+        {
+            categories = CsvHelperUtility.ReadCsv<Category>("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\categories.csv", new CategoryMap());
+        }
+
+        private void LoadProducts()
+        {
+            products = CsvHelperUtility.ReadCsv<Product>("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\products.csv", new ProductMap());
         }
 
         private void UpdateSummaryLabels()
@@ -90,16 +106,6 @@ namespace Kiosk
         }
 
 
-        private void LoadCategories()
-        {
-            categories = CsvHelperUtility.ReadCsv<Category>("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\categories.csv", new CategoryMap());
-        }
-
-        private void LoadProducts()
-        {
-            products = CsvHelperUtility.ReadCsv<Product>("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\products.csv", new ProductMap());
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -150,7 +156,6 @@ namespace Kiosk
                     Tag = product.ProductId
                 };
                 productPictureBox.Click += (s, e) => ProductPanel_Click(productPanel, e);
-                // productPictureBox.Click += PictureBox_Click;
 
                 // 제품 별점 라벨
                 var ratingLabel = new Label
@@ -331,10 +336,47 @@ namespace Kiosk
         {
             if (totalProductTypes >= 1)
             {
-                OrderCheckPopup orderCheckPopup = new OrderCheckPopup(totalProductTypes, totalQuantity, totalPrice);
+                OrderCheckPopup orderCheckPopup = new OrderCheckPopup(totalProductTypes, totalQuantity, totalPrice, cartItems, products, this);
                 orderCheckPopup.ShowDialog();
             }
             else MessageBox.Show("상품이 한 개 이상이어야 합니다!");
+        }
+
+        public void ClearCart()
+        {
+            cartItems.Clear();
+            CartLayoutPanel.Controls.Clear();
+            UpdateSummaryLabels();
+        }
+
+        private void CustomerMainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            InitializeCsvFiles();
+        }
+
+        private void InitializeCsvFiles()
+        {
+            string orderFilePath = "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\orders.csv";
+            string orderItemFilePath = "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\orderItems.csv";
+
+            InitializeCsvFile<Order>(orderFilePath);
+            InitializeCsvFile<OrderItem>(orderItemFilePath);
+        }
+
+        private static void InitializeCsvFile<T>(string filePath)
+        {
+            var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                ShouldQuote = args => true,
+                HasHeaderRecord = true
+            };
+
+            using (var writer = new StreamWriter(filePath, false)) // append: false, 파일을 덮어씀
+            using (var csv = new CsvWriter(writer, config))
+            {
+                csv.WriteHeader<T>();
+                csv.NextRecord(); // 헤더와 데이터 사이의 줄바꿈
+            }
         }
     }
 }

@@ -41,7 +41,7 @@
             // 
             this.orderQuantityLabel.AutoSize = true;
             this.orderQuantityLabel.BackColor = System.Drawing.Color.White;
-            this.orderQuantityLabel.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.orderQuantityLabel.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.orderQuantityLabel.Location = new System.Drawing.Point(381, 375);
             this.orderQuantityLabel.Name = "orderQuantityLabel";
             this.orderQuantityLabel.Size = new System.Drawing.Size(64, 21);
@@ -52,7 +52,7 @@
             // 
             this.orderProductTypesLabel.AutoSize = true;
             this.orderProductTypesLabel.BackColor = System.Drawing.Color.White;
-            this.orderProductTypesLabel.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.orderProductTypesLabel.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.orderProductTypesLabel.Location = new System.Drawing.Point(199, 375);
             this.orderProductTypesLabel.Name = "orderProductTypesLabel";
             this.orderProductTypesLabel.Size = new System.Drawing.Size(64, 21);
@@ -63,7 +63,7 @@
             // 
             this.orderTotalPriceLabel.AutoSize = true;
             this.orderTotalPriceLabel.BackColor = System.Drawing.Color.White;
-            this.orderTotalPriceLabel.Font = new System.Drawing.Font("Gulim", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.orderTotalPriceLabel.Font = new System.Drawing.Font("굴림", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.orderTotalPriceLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.orderTotalPriceLabel.Location = new System.Drawing.Point(621, 367);
             this.orderTotalPriceLabel.Name = "orderTotalPriceLabel";
@@ -100,7 +100,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Kiosk.Properties.Resources.OrderPopupForm3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1015, 783);
+            this.ClientSize = new System.Drawing.Size(1031, 822);
             this.Controls.Add(this.orderComplete);
             this.Controls.Add(this.orderCompleteLabel);
             this.Controls.Add(this.orderProductTypesLabel);

@@ -19,14 +19,5 @@ namespace Kiosk
                 return csv.GetRecords<T>().ToList();
             }
         }
-
-        public void WriteCsvFile<T>(string filePath, List<T> records)
-        {
-            using (var writer = new StreamWriter(filePath))
-            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
-            {
-                csv.WriteRecords(records);
-            }
-        }
     }
 }

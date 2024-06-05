@@ -105,6 +105,7 @@
             // 
             // CartLayoutPanel
             // 
+            this.CartLayoutPanel.AutoScroll = true;
             this.CartLayoutPanel.BackColor = System.Drawing.Color.White;
             this.CartLayoutPanel.Location = new System.Drawing.Point(1017, 203);
             this.CartLayoutPanel.Name = "CartLayoutPanel";
@@ -127,9 +128,10 @@
             // 
             this.totalProductTypesLabel.AutoSize = true;
             this.totalProductTypesLabel.BackColor = System.Drawing.Color.White;
+            this.totalProductTypesLabel.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.totalProductTypesLabel.Location = new System.Drawing.Point(1003, 881);
             this.totalProductTypesLabel.Name = "totalProductTypesLabel";
-            this.totalProductTypesLabel.Size = new System.Drawing.Size(38, 12);
+            this.totalProductTypesLabel.Size = new System.Drawing.Size(44, 12);
             this.totalProductTypesLabel.TabIndex = 7;
             this.totalProductTypesLabel.Text = "label2";
             // 
@@ -137,9 +139,10 @@
             // 
             this.totalQuantityLabel.AutoSize = true;
             this.totalQuantityLabel.BackColor = System.Drawing.Color.White;
+            this.totalQuantityLabel.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.totalQuantityLabel.Location = new System.Drawing.Point(1080, 881);
             this.totalQuantityLabel.Name = "totalQuantityLabel";
-            this.totalQuantityLabel.Size = new System.Drawing.Size(38, 12);
+            this.totalQuantityLabel.Size = new System.Drawing.Size(44, 12);
             this.totalQuantityLabel.TabIndex = 8;
             this.totalQuantityLabel.Text = "label3";
             // 

@@ -100,7 +100,7 @@
             // 
             this.productQuantityLabel.AutoSize = true;
             this.productQuantityLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
-            this.productQuantityLabel.Font = new System.Drawing.Font("Gulim", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.productQuantityLabel.Font = new System.Drawing.Font("굴림", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.productQuantityLabel.Location = new System.Drawing.Point(417, 685);
             this.productQuantityLabel.Name = "productQuantityLabel";
             this.productQuantityLabel.Size = new System.Drawing.Size(39, 37);
@@ -111,7 +111,7 @@
             // 
             this.productRatingLabel.AutoSize = true;
             this.productRatingLabel.BackColor = System.Drawing.Color.Transparent;
-            this.productRatingLabel.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.productRatingLabel.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.productRatingLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(85)))), ((int)(((byte)(74)))));
             this.productRatingLabel.Location = new System.Drawing.Point(159, 498);
             this.productRatingLabel.Name = "productRatingLabel";
@@ -123,8 +123,8 @@
             // 
             this.productPriceLabel.AutoSize = true;
             this.productPriceLabel.BackColor = System.Drawing.Color.Transparent;
-            this.productPriceLabel.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.productPriceLabel.Location = new System.Drawing.Point(313, 498);
+            this.productPriceLabel.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.productPriceLabel.Location = new System.Drawing.Point(352, 498);
             this.productPriceLabel.Name = "productPriceLabel";
             this.productPriceLabel.Size = new System.Drawing.Size(54, 21);
             this.productPriceLabel.TabIndex = 6;
@@ -132,28 +132,28 @@
             // 
             // productNameLabel
             // 
-            this.productNameLabel.AutoSize = true;
             this.productNameLabel.BackColor = System.Drawing.Color.Transparent;
-            this.productNameLabel.Font = new System.Drawing.Font("Gulim", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.productNameLabel.Location = new System.Drawing.Point(504, 101);
+            this.productNameLabel.Font = new System.Drawing.Font("굴림", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.productNameLabel.Location = new System.Drawing.Point(515, 101);
             this.productNameLabel.Name = "productNameLabel";
-            this.productNameLabel.Size = new System.Drawing.Size(158, 24);
+            this.productNameLabel.Size = new System.Drawing.Size(434, 94);
             this.productNameLabel.TabIndex = 7;
             this.productNameLabel.Text = "productName";
+            this.productNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // productContentLabel
             // 
-            this.productContentLabel.AutoSize = true;
             this.productContentLabel.BackColor = System.Drawing.Color.Transparent;
-            this.productContentLabel.Font = new System.Drawing.Font("Gulim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.productContentLabel.Location = new System.Drawing.Point(504, 195);
+            this.productContentLabel.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.productContentLabel.Location = new System.Drawing.Point(504, 232);
             this.productContentLabel.Name = "productContentLabel";
-            this.productContentLabel.Size = new System.Drawing.Size(121, 16);
+            this.productContentLabel.Size = new System.Drawing.Size(445, 188);
             this.productContentLabel.TabIndex = 8;
             this.productContentLabel.Text = "productContent";
             // 
             // productImagePbx
             // 
+            this.productImagePbx.BackColor = System.Drawing.Color.White;
             this.productImagePbx.Location = new System.Drawing.Point(97, 101);
             this.productImagePbx.Name = "productImagePbx";
             this.productImagePbx.Size = new System.Drawing.Size(342, 343);
@@ -165,7 +165,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(85)))), ((int)(((byte)(74)))));
             this.label1.Location = new System.Drawing.Point(94, 498);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 21);
@@ -176,8 +177,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Gulim", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(247, 498);
+            this.label2.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Location = new System.Drawing.Point(286, 498);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 21);
             this.label2.TabIndex = 11;
@@ -187,7 +188,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
-            this.label3.Font = new System.Drawing.Font("Gulim", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Font = new System.Drawing.Font("굴림", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label3.Location = new System.Drawing.Point(468, 685);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 37);

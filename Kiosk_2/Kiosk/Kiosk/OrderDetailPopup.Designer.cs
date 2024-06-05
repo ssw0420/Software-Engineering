@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.redirectMain = new System.Windows.Forms.PictureBox();
+            this.OrderDetailList = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.redirectMain)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,12 +45,20 @@
             this.redirectMain.TabStop = false;
             this.redirectMain.Click += new System.EventHandler(this.redirectMain_Click);
             // 
+            // OrderDetailList
+            // 
+            this.OrderDetailList.Location = new System.Drawing.Point(38, 179);
+            this.OrderDetailList.Name = "OrderDetailList";
+            this.OrderDetailList.Size = new System.Drawing.Size(1127, 615);
+            this.OrderDetailList.TabIndex = 1;
+            // 
             // OrderDetailPopup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Kiosk.Properties.Resources.OrderDetailForm_TablePlus;
             this.ClientSize = new System.Drawing.Size(1336, 1024);
+            this.Controls.Add(this.OrderDetailList);
             this.Controls.Add(this.redirectMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OrderDetailPopup";
@@ -64,5 +73,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox redirectMain;
+        private System.Windows.Forms.FlowLayoutPanel OrderDetailList;
     }
 }

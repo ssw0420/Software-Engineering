@@ -8,5 +8,6 @@ productId,productName,productImgPath,productCategory,productPrice,productContent
 7,모둠튀김,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\AssortedTempura.png",튀김류,12000,"바삭하고 다양한 종류의 모둠튀김입니다!",4.6,2,1
 8,튀김꼬치,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\TempuraSkewer.png",튀김류,5000,"바삭하고 고소한 튀김꼬치입니다!",4.4,2,1
 9,코카콜라,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\CocaCola.png",음료류,2000,"시원한 탄산이 일품인 코카콜라입니다!",4.8,3,1
-10,포카리스웨트,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\PocariSweat.png",음료류,2000,"갈증 해소에 좋은 포카리스웨트입니다!",4.7,3,1
-11,칠성사이다,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\ChilsungCider.png",음료류,2000,"상큼한 맛이 일품인 칠성사이다입니다!",4.9,3,1
+10,칠성사이다,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\ChilsungCider.png",음료류,2000,"상큼한 맛이 일품인 칠성사이다입니다!",4.9,3,1
+11,맥주,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\Beer.png",음료류,5000,"시원한 맥주입니다!",5.0,3,1
+12,칵테일,"C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\FoodImg\\Cocktail.png",음료류,8500,"새콤달콤한 맛의 칵테일입니다!",5.0,3,1
