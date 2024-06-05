@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|c:\\kiosk_2\\software-engineering\\kiosk_2\\kiosk\\kiosk\\boundary\\ordercheckpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\boundary\\ordercheckpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\control\\saveorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\control\\saveorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\control\\csvhelperutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\control\\csvhelperutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\control\\fileread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\control\\fileread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\control\\filewrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\control\\filewrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\boundary\\ordercheckpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\boundary\\ordercheckpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\control\\loadproductdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\control\\loadproductdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\control\\loadlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\control\\loadlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\boundary\\customermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\boundary\\customermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\boundary\\ordercompletepopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\boundary\\ordercompletepopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\boundary\\productdetailpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\boundary\\productdetailpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\kiosk\\boundary\\orderdetailpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58197223-429C-4891-B6B2-F25ADF2DAB51}|Kiosk\\Kiosk.csproj|solutionrelative:kiosk\\boundary\\orderdetailpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoadList.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\LoadList.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Control\\LoadList.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\LoadList.cs",
+              "RelativeToolTip": "Kiosk\\Control\\LoadList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:19:21.255Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderCheckPopup.cs [Design]",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\OrderCheckPopup.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Boundary\\OrderCheckPopup.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\OrderCheckPopup.cs [Design]",
+              "RelativeToolTip": "Kiosk\\Boundary\\OrderCheckPopup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:42:43.725Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileWrite.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\FileWrite.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Control\\FileWrite.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\FileWrite.cs",
+              "RelativeToolTip": "Kiosk\\Control\\FileWrite.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:42:14.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileRead.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\FileRead.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Control\\FileRead.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\FileRead.cs",
+              "RelativeToolTip": "Kiosk\\Control\\FileRead.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:42:12.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CsvHelperUtility.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\CsvHelperUtility.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Control\\CsvHelperUtility.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\CsvHelperUtility.cs",
+              "RelativeToolTip": "Kiosk\\Control\\CsvHelperUtility.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:42:11.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SaveOrderDetail.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\SaveOrderDetail.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Control\\SaveOrderDetail.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\SaveOrderDetail.cs",
+              "RelativeToolTip": "Kiosk\\Control\\SaveOrderDetail.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:24:58.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderCheckPopup.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\OrderCheckPopup.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Boundary\\OrderCheckPopup.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\OrderCheckPopup.cs",
+              "RelativeToolTip": "Kiosk\\Boundary\\OrderCheckPopup.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAmwCsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T06:49:55.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoadProductDetail.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\LoadProductDetail.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Control\\LoadProductDetail.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Control\\LoadProductDetail.cs",
+              "RelativeToolTip": "Kiosk\\Control\\LoadProductDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T06:57:30.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderCompletePopup.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\OrderCompletePopup.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Boundary\\OrderCompletePopup.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\OrderCompletePopup.cs",
+              "RelativeToolTip": "Kiosk\\Boundary\\OrderCompletePopup.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:28:36.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductDetailPopup.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\ProductDetailPopup.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Boundary\\ProductDetailPopup.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\ProductDetailPopup.cs",
+              "RelativeToolTip": "Kiosk\\Boundary\\ProductDetailPopup.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T06:59:56.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Program.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Program.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Program.cs",
+              "RelativeToolTip": "Kiosk\\Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAADwvzMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:25:09.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderDetailPopup.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\OrderDetailPopup.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Boundary\\OrderDetailPopup.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\OrderDetailPopup.cs",
+              "RelativeToolTip": "Kiosk\\Boundary\\OrderDetailPopup.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:28:41.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerMainForm.cs",
+              "DocumentMoniker": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\CustomerMainForm.cs",
+              "RelativeDocumentMoniker": "Kiosk\\Boundary\\CustomerMainForm.cs",
+              "ToolTip": "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Boundary\\CustomerMainForm.cs",
+              "RelativeToolTip": "Kiosk\\Boundary\\CustomerMainForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T06:56:21.824Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

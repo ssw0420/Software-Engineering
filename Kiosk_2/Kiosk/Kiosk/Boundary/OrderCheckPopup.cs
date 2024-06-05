@@ -17,10 +17,11 @@ namespace Kiosk
         private List<Panel> cartItems;
         private List<Product> products;
         private CustomerMainForm mainForm;
-
+        private SaveOrderDetail saveOrderDetail;
         public OrderCheckPopup(int totalProductTypes, int totalQuantity, int totalPrice, List<Panel> cartItems, List<Product> products, CustomerMainForm mainForm)
         {
             InitializeComponent();
+            saveOrderDetail = new SaveOrderDetail();
             designProperties(totalProductTypes, totalQuantity, totalPrice);
             this.cartItems = cartItems;
             this.products = products;
@@ -39,60 +40,15 @@ namespace Kiosk
 
         private void orderYes_Click(object sender, EventArgs e)
         {
-            SaveOrderToCsv();
+            //제어클래스인 SaveOrderDetail 클래스의 SaveOrderToCsv 메서드를 호출하여
+            //주문 내역과 주문 아이템을 Csv파일에 작성한다.
+            saveOrderDetail.SaveOrderToCsv(cartItems, products);
             ClearCart();
             OrderCompletePopup orderCompletePopup = new OrderCompletePopup(totalProductTypes, totalQuantity, totalPrice);
             orderCompletePopup.ShowDialog();
             this.Close();
         }
 
-        private void SaveOrderToCsv()
-        {
-            string orderFilePath = "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\orders.csv";
-            string orderItemFilePath = "C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\orderItems.csv";
-            int orderId = 1;
-
-            var fileRead = new FileRead();
-
-            if (File.Exists(orderFilePath))
-            {
-                var existingOrders = fileRead.ReadCsvFile<Order>(orderFilePath);
-                if (existingOrders.Any())
-                {
-                    orderId = existingOrders.Max(o => o.OrderId) + 1;
-                }
-            }
-
-            var order = new Order
-            {
-                OrderId = orderId,
-                OrderDate = DateTime.Now,
-                UserId = 15
-            };
-
-            var orderItems = new List<OrderItem>();
-
-            foreach (var panel in cartItems)
-            {
-                var productId = (int)panel.Tag;
-                var quantityLabel = panel.Controls.OfType<Label>().First(l => l.Text.StartsWith("수량:"));
-                int quantity = int.Parse(quantityLabel.Text.Split(':')[1].Trim());
-                var product = products.First(p => p.ProductId == productId);
-
-                var orderItem = new OrderItem
-                {
-                    OrderItemId = orderItems.Count + 1,
-                    OrderId = orderId,
-                    ProductId = productId,
-                    Quantity = quantity,
-                    Price = product.ProductPrice * quantity
-                };
-                orderItems.Add(orderItem);
-            }
-
-            CsvHelperUtility.WriteCsv(orderFilePath, new List<Order> { order });
-            CsvHelperUtility.WriteCsv(orderItemFilePath, orderItems);
-        }
         private void ClearCart()
         {
             mainForm.ClearCart();

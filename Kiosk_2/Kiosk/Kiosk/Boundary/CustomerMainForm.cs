@@ -12,6 +12,7 @@ using System.IO;
 using CsvHelper.Configuration;
 using CsvHelper;
 using System.Globalization;
+using Kiosk.Control;
 
 namespace Kiosk
 {
@@ -24,12 +25,16 @@ namespace Kiosk
         private int totalProductTypes;
         private int totalQuantity;
         private int totalPrice;
+        private LoadList loadList = new LoadList();
         
         public CustomerMainForm()
         {
             InitializeComponent();
-            LoadCategories();
-            LoadProducts();
+            //컨트롤 클래스인 LoadEntity의 LoadCategories와 LoadProducts 메서드를 호출하여
+            //Csv파일의 카테고리 목록과 상품 목록을 불러온다.
+            categories = loadList.LoadCategories();
+            products = loadList.LoadProducts();
+
             DisplayCategories();
             DisplayProducts(1);
             InitializeSummaryLabels();
@@ -42,16 +47,6 @@ namespace Kiosk
             totalQuantityLabel.Text = "0 개";
             totalProductTypesLabel.Text = "0 가지";
             totalPriceLabel.Text = "합계 0 원";
-        }
-
-        private void LoadCategories()
-        {
-            categories = CsvHelperUtility.ReadCsv<Category>("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\categories.csv", new CategoryMap());
-        }
-
-        private void LoadProducts()
-        {
-            products = CsvHelperUtility.ReadCsv<Product>("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\products.csv", new ProductMap());
         }
 
         private void UpdateSummaryLabels()
@@ -317,7 +312,7 @@ namespace Kiosk
             DisplayProductDetail(productId);
         }
 
-
+        //제품 상세 팝업 띄우는 메서드
         private void DisplayProductDetail(int productId)
         {
             var selectedProduct = products.FirstOrDefault(p => p.ProductId == productId);

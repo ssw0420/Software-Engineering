@@ -22,10 +22,10 @@ C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.CustomerMain
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.Properties.Resources.resources
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.GenerateResource.cache
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CoreCompileInputs.cache
-C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.CopyComplete
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.exe
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.pdb
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.OrderDetailPopup.resources
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.ProductDetailPopup.resources
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCheckPopup.resources
 C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.OrderCompletePopup.resources
+C:\kiosk_2\Software-Engineering\Kiosk_2\Kiosk\Kiosk\obj\Debug\Kiosk.csproj.Up2Date

@@ -17,21 +17,18 @@ namespace Kiosk
         // private List<Product> products;
         private Product selectedProduct;
         private CustomerMainForm mainForm;
+        private LoadProductDetail loadProduct;
         public ProductDetailPopup(Product product, CustomerMainForm form)
         {
             InitializeComponent();
             mainForm = form;
             selectedProduct = product;
-            LoadProductDetail(product);
+            loadProduct = new LoadProductDetail();
+            //제어 클래스 LoadProduct의 LoadProductDetail 메서드 호출하여
+            //제품 상세 팝업에 상품의 정보(이름, 가격, 이미지, 별점) 등을 입력한다.
+            loadProduct.LoadDetail(product, this);
         }
-        private void LoadProductDetail(Product product)
-        {
-            productNameLabel.Text = product.ProductName;
-            productImagePbx.Image = Image.FromFile(product.ProductImgPath);
-            productRatingLabel.Text = product.ProductRating.ToString();
-            productPriceLabel.Text = product.ProductPrice.ToString();
-            productContentLabel.Text = product.ProductContent;
-        }
+
         //상품 수량 조절 메서드
         private void ModifyProductQuantity(bool isPlus)
         {
