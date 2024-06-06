@@ -70,6 +70,7 @@ namespace Kiosk
 
         private void DisplayCategories()
         {
+            int index = 0;
             foreach (var category in categories)
             {
                 // 카테고리 라벨 폰트 설정 및 Bold
@@ -85,22 +86,44 @@ namespace Kiosk
                     Margin = new Padding(15),
                     TextAlign = ContentAlignment.MiddleCenter,
                     Tag = category.CategoryId,
-                    Font = new Font("굴림", 12, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
+                    Font = new Font("굴림", 14, FontStyle.Bold) // 굴림체, 폰트 크기 및 Bold 설정
                 };
                 label.Click += CategoryLabel_Click;
+                if(index == 0)
+                {
+                    label.Image = Image.FromFile("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\ButtonImg\\ClickCategoryButton.png");
+                }
                 CategoryList.Controls.Add(label);
+                index++;
             }
         }
 
         private void CategoryLabel_Click(object sender, EventArgs e)
         {
-            var label = sender as Label;
-            var categoryId = (int)label.Tag;
-            var categoryName = label.Name;
-            nowCategories = categoryId;
+            var clickedLabel = sender as Label;
+            var clickedCategoryId = (int)clickedLabel.Tag;
+
+            nowCategories = clickedCategoryId;
+
+            // 모든 카테고리 버튼을 순회하면서 이미지 변경
+            foreach (System.Windows.Forms.Control control in CategoryList.Controls)
+            {
+                if (control is Label label)
+                {
+                    var categoryId = (int)label.Tag;
+                    if (categoryId == clickedCategoryId)
+                    {
+                        label.Image = Image.FromFile("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\ButtonImg\\ClickCategoryButton.png");
+                    }
+                    else
+                    {
+                        label.Image = Image.FromFile("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Images\\ButtonImg\\DefaultCategoryButton.png");
+                    }
+                }
+            }
+
             DisplayProducts(nowCategories);
         }
-
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -112,6 +135,13 @@ namespace Kiosk
         {
             MenuList.Controls.Clear();
             var categoryProducts = products.Where(p => p.CategoryId == categoryId).ToList();
+
+            if (!categoryProducts.Any())
+            {
+                MessageBox.Show("카테고리가 비어있습니다!");
+                return;
+            }
+
             MenuList.RowCount = categoryProducts.Count;
 
             foreach (var product in categoryProducts)
