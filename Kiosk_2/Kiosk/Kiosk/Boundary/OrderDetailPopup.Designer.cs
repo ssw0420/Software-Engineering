@@ -80,7 +80,6 @@
             this.Name = "OrderDetailPopup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrderDetailPopup";
-            this.Load += new System.EventHandler(this.OrderDetailPopup_Load);
             ((System.ComponentModel.ISupportInitialize)(this.redirectMain)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

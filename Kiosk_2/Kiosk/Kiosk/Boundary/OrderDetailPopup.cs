@@ -175,10 +175,5 @@ namespace Kiosk
             customerMainForm.Show();
             this.Hide();
         }
-
-        private void OrderDetailPopup_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
