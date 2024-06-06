@@ -338,12 +338,8 @@ namespace Kiosk
 
         private void cartOrder_Click(object sender, EventArgs e)
         {
-            if (totalProductTypes >= 1)
-            {
-                OrderCheckPopup orderCheckPopup = new OrderCheckPopup(totalProductTypes, totalQuantity, totalPrice, cartItems, products, this);
-                orderCheckPopup.ShowDialog();
-            }
-            else MessageBox.Show("상품이 한 개 이상이어야 합니다!");
+            CheckOrder checkOrder = new CheckOrder();
+            checkOrder.checkOrderCorrect(totalProductTypes, totalQuantity, totalPrice, cartItems, products, this);
         }
 
         public void ClearCart()
