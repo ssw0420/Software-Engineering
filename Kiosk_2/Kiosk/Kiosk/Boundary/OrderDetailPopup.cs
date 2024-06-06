@@ -8,21 +8,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using Kiosk.Control;
 
 namespace Kiosk
 {
+    //주문 내역을 출력하는 팝업
     public partial class OrderDetailPopup : Form
     {
-        private List<Order> orders;
-        private List<OrderItem> orderItems;
-        private List<Product> products;
+        private List<Order> orders = new List<Order>();
+        private List<OrderItem> orderItems = new List<OrderItem>();
+        private List<Product> products = new List<Product>();
+        LoadOrderDetail loadOrderDetail = new LoadOrderDetail();
         private int totalQuantity = 0;
 
         public OrderDetailPopup()
         {
             InitializeComponent();
             EnsureFilesExist();
-            LoadData();
+            loadOrderDetail.LoadData(ref orders, ref orderItems, ref products);
             DisplayOrderDetails();
         }
 
@@ -39,18 +42,6 @@ namespace Kiosk
             if (!System.IO.File.Exists(orderItemFilePath))
             {
                 CsvHelperUtility.WriteCsv(orderItemFilePath, new List<OrderItem>());
-            }
-        }
-
-        private void LoadData()
-        {
-            orders = CsvHelperUtility.ReadCsv<Order>("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\orders.csv", new OrderMap());
-            orderItems = CsvHelperUtility.ReadCsv<OrderItem>("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\orderItems.csv", new OrderItemMap());
-            products = CsvHelperUtility.ReadCsv<Product>("C:\\kiosk_2\\Software-Engineering\\Kiosk_2\\Kiosk\\Kiosk\\Resources\\Data\\products.csv", new ProductMap());
-
-            if (orders.Count == 0 || orderItems.Count == 0)
-            {
-                MessageBox.Show("주문 내역이 없습니다.");
             }
         }
 

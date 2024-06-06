@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="Control\CheckOrder.cs" />
     <Compile Include="Control\LoadList.cs" />
+    <Compile Include="Control\LoadOrderDetail.cs" />
     <Compile Include="Entity\Category.cs" />
     <Compile Include="Control\CsvHelperUtility.cs" />
     <Compile Include="Boundary\CustomerMainForm.cs">
