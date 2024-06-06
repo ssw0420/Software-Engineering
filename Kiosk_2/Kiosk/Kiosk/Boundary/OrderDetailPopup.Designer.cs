@@ -30,7 +30,7 @@
         {
             this.redirectMain = new System.Windows.Forms.PictureBox();
             this.OrderDetailList = new System.Windows.Forms.FlowLayoutPanel();
-            this.totalQuantityLabel = new System.Windows.Forms.Label();
+            this.totalPriceLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.redirectMain)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,31 +55,32 @@
             this.OrderDetailList.Size = new System.Drawing.Size(1299, 615);
             this.OrderDetailList.TabIndex = 1;
             // 
-            // totalQuantityLabel
+            // totalPriceLabel
             // 
-            this.totalQuantityLabel.AutoSize = true;
-            this.totalQuantityLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
-            this.totalQuantityLabel.Font = new System.Drawing.Font("굴림", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.totalQuantityLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(85)))), ((int)(((byte)(74)))));
-            this.totalQuantityLabel.Location = new System.Drawing.Point(1174, 968);
-            this.totalQuantityLabel.Name = "totalQuantityLabel";
-            this.totalQuantityLabel.Size = new System.Drawing.Size(126, 37);
-            this.totalQuantityLabel.TabIndex = 2;
-            this.totalQuantityLabel.Text = "label1";
+            this.totalPriceLabel.AutoSize = true;
+            this.totalPriceLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            this.totalPriceLabel.Font = new System.Drawing.Font("굴림", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.totalPriceLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(85)))), ((int)(((byte)(74)))));
+            this.totalPriceLabel.Location = new System.Drawing.Point(1107, 966);
+            this.totalPriceLabel.Name = "totalPriceLabel";
+            this.totalPriceLabel.Size = new System.Drawing.Size(190, 37);
+            this.totalPriceLabel.TabIndex = 2;
+            this.totalPriceLabel.Text = "totalPrice";
             // 
             // OrderDetailPopup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Kiosk.Properties.Resources.OrderDetailWhiteForm;
+            this.BackgroundImage = global::Kiosk.Properties.Resources.OrderDetailPrice;
             this.ClientSize = new System.Drawing.Size(1336, 1024);
-            this.Controls.Add(this.totalQuantityLabel);
+            this.Controls.Add(this.totalPriceLabel);
             this.Controls.Add(this.OrderDetailList);
             this.Controls.Add(this.redirectMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OrderDetailPopup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrderDetailPopup";
+            this.Load += new System.EventHandler(this.OrderDetailPopup_Load);
             ((System.ComponentModel.ISupportInitialize)(this.redirectMain)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -90,6 +91,6 @@
 
         private System.Windows.Forms.PictureBox redirectMain;
         private System.Windows.Forms.FlowLayoutPanel OrderDetailList;
-        private System.Windows.Forms.Label totalQuantityLabel;
+        private System.Windows.Forms.Label totalPriceLabel;
     }
 }

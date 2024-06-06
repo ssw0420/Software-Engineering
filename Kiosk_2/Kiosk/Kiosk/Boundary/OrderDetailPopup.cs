@@ -20,6 +20,7 @@ namespace Kiosk
         private List<Product> products = new List<Product>();
         LoadOrderDetail loadOrderDetail = new LoadOrderDetail();
         private int totalQuantity = 0;
+        private decimal totalPrice = 0;
 
         public OrderDetailPopup()
         {
@@ -156,7 +157,7 @@ namespace Kiosk
                         orderItemDetailsPanel.Controls.Add(orderItemPanel);
 
                         // 총 수량 계산
-                        totalQuantity += item.Quantity;
+                        totalPrice += (int)item.Price;
                     }
                 }
                 orderItemDetailsPanel.Height = itemCount * 100; // 패널 크기를 동적으로 조절
@@ -164,8 +165,8 @@ namespace Kiosk
             }
 
             // 총 주문 수량 라벨 업데이트
-            totalQuantityLabel.Text = $"{totalQuantity} 개";
-            totalQuantityLabel.Font = new Font("굴림", 29, FontStyle.Bold); // 총 주문 수량 글씨 크기 조정
+            totalPriceLabel.Text = $"{totalPrice} 원";
+            totalPriceLabel.Font = new Font("굴림", 29, FontStyle.Bold); // 총 주문 수량 글씨 크기 조정
         }
 
         private void redirectMain_Click(object sender, EventArgs e)
@@ -175,5 +176,9 @@ namespace Kiosk
             this.Hide();
         }
 
+        private void OrderDetailPopup_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
